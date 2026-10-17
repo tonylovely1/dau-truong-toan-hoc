@@ -1,0 +1,1755 @@
+<!DOCTYPE html>
+<!-- saved from url=(0132)blob:https://0eks5ezdihq21yl9pdipv0owwoc9d3pnzhy4qkvarsfzme76vq-h998661601.scf.usercontent.goog/ea5f6ae6-8aa8-4ae9-ab3a-a83941c97b49 -->
+<html lang="vi"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script data-bard-client-injected="true">(function(firebaseConfig, initialAuthToken, appId) {
+        window.__firebase_config = firebaseConfig;
+        window.__initial_auth_token = initialAuthToken;
+        window.__app_id = appId;
+            })("\n{\n  \"apiKey\": \"AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY\",\n  \"authDomain\": \"bard-frontend.firebaseapp.com\",\n  \"projectId\": \"bard-frontend\",\n  \"storageBucket\": \"bard-frontend.firebasestorage.app\",\n  \"messagingSenderId\": \"175205271074\",\n  \"appId\": \"1:175205271074:web:2b7bd4d34d33bf38e6ec7b\"\n}\n","eyJhbGciOiJSUzI1NiIsImtpZCI6IjExNjRiNzdiNDMzZDdhMDAyMWI4NjE4YjhjYTU3ZTMyZGI5MWUxMTMiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1mYnN2Y0BiYXJkLWZyb250ZW5kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJ1aWQiOiIwMzM0NjgyMDU3NTM5NjI0MDA0NiIsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLWZic3ZjQGJhcmQtZnJvbnRlbmQuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJjbGFpbXMiOnsiYXBwSWQiOiIxZWE5NDdkMDc1NTUtbWF0aF9nYW1lLmh0bWwtNDE2In0sImV4cCI6MTc5MjI1ODc5MiwiaWF0IjoxNzkyMjU1MTkyLCJhbGciOiJSUzI1NiJ9.FVirijFmPZhq242YAYPcmaU7jF9g_6HU2zKfevWTNqRBEs1TTQab8k2pF3NzMM6l3K8uXL5lIXCgquHJPk0t2dSRrWcRXV2eh3-fPyBDMZQMSnuKNC_bE519NIjDQqbwp5PC2bx928_mZ7Zg-G1YUWg4oDJlCinCeC29gi67MdLIezE6nPK86wWnTKs4GW55SdbROWzL-GJxKRQhCbJUw3JQ4Cki-2zn-YhiLUP2J88VpxT9KCQzl1DelsVT7ciGactByirR-PGsYoAV1ssLJKVlL522Ay152RtNjN7j95BMxSwEQykLd3x8jrwZa33vA78v1RlU5tQiTlwhDEO15g","1ea947d07555-math_game.html-416")</script><script data-bard-client-injected="true">
+  document.addEventListener('input', (event) => {
+    if (event.target && (event.target.isContentEditable || event.target.hasAttribute('contenteditable'))) {
+      const clonedDoc = document.cloneNode(true);
+      const injectedScripts = clonedDoc.querySelectorAll('[data-bard-client-injected="true"]');
+      injectedScripts.forEach(el => el.remove());
+      window.parent.postMessage({
+        type: 'inlineEdit',
+        html: '<!DOCTYPE html>\n' + clonedDoc.documentElement.outerHTML
+      }, '*');
+    }
+  });
+</script><script data-bard-client-injected="true">(function(){'use strict';window.addEventListener("message",a=>{a.data&&a.data.type==="SUPPLEMENTAL_DATA_UPDATE"&&window.dispatchEvent(new CustomEvent("supplementaldataupdate",{detail:a.data.data}))});}).call(this);
+</script><script data-bard-client-injected="true">(function(){'use strict';var h=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,c){if(a==Array.prototype||a==Object.prototype)return a;a[b]=c.value;return a};function l(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var c=a[b];if(c&&c.Math==Math)return c}throw Error("Cannot find global object");}var n=l(this);
+function p(a,b){if(b)a:{var c=n;a=a.split(".");for(var d=0;d<a.length-1;d++){var e=a[d];if(!(e in c))break a;c=c[e]}a=a[a.length-1];d=c[a];b=b(d);b!=d&&b!=null&&h(c,a,{configurable:!0,writable:!0,value:b})}}function r(a){function b(d){return a.next(d)}function c(d){return a.throw(d)}return new Promise(function(d,e){function f(g){g.done?d(g.value):Promise.resolve(g.value).then(b,c).then(f,e)}f(a.next())})}function t(a){return r(a())}
+p("Object.values",function(a){return a?a:function(b){var c=[],d;for(d in b)Object.prototype.hasOwnProperty.call(b,d)&&c.push(b[d]);return c}});p("Array.prototype.includes",function(a){return a?a:function(b,c){var d=this;d instanceof String&&(d=String(d));var e=d.length;c=c||0;for(c<0&&(c=Math.max(c+e,0));c<e;c++){var f=d[c];if(f===b||Object.is(f,b))return!0}return!1}});/*
+
+ MIT License
+
+ Copyright (c) 2017-2023 W.Y.
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+*/
+function u(a,b){var c=a.style;b.backgroundColor&&(c.backgroundColor=b.backgroundColor);b.width&&(c.width=`${b.width}px`);b.height&&(c.height=`${b.height}px`);var d=b.style;d!=null&&Object.keys(d).forEach(e=>{c[e]=d[e]})};var v=(()=>{var a=0;return()=>{a+=1;return`u${`0000${(Math.random()*1679616<<0).toString(36)}`.slice(-4)}${a}`}})();function w(a){var b=[];for(let c=0,d=a.length;c<d;c++)b.push(a[c]);return b}let x=null;function y(a={}){return x?x:a.u?x=a.u:x=w(window.getComputedStyle(document.documentElement))}function z(a,b){return(a=(a.ownerDocument.defaultView||window).getComputedStyle(a).getPropertyValue(b))?parseFloat(a.replace("px","")):0}
+function A(a,b={}){var c;if(!(c=b.width)){c=z(a,"border-left-width");var d=z(a,"border-right-width");c=a.clientWidth+c+d}(b=b.height)||(b=z(a,"border-top-width"),d=z(a,"border-bottom-width"),b=a.clientHeight+b+d);return{width:c,height:b}}function B(a){return new Promise((b,c)=>{var d=new Image;d.onload=()=>{d.decode().then(()=>{requestAnimationFrame(()=>b(d))})};d.onerror=c;d.crossOrigin="anonymous";d.decoding="async";d.src=a})}
+function C(a){return t(function*(){return Promise.resolve().then(()=>(new XMLSerializer).serializeToString(a)).then(encodeURIComponent).then(b=>`data:image/svg+xml;charset=utf-8,${b}`)})}
+function D(a,b,c){return t(function*(){var d=document.createElementNS("http://www.w3.org/2000/svg","svg"),e=document.createElementNS("http://www.w3.org/2000/svg","foreignObject");d.setAttribute("width",`${b}`);d.setAttribute("height",`${c}`);d.setAttribute("viewBox",`0 0 ${b} ${c}`);e.setAttribute("width","100%");e.setAttribute("height","100%");e.setAttribute("x","0");e.setAttribute("y","0");e.setAttribute("externalResourcesRequired","true");d.appendChild(e);e.appendChild(a);return C(d)})}
+var E=(a,b)=>{if(a instanceof b)return!0;a=Object.getPrototypeOf(a);return a===null?!1:a.constructor.name===b.name||E(a,b)};function F(a,b){return y(b).map(c=>{var d=a.getPropertyValue(c),e=a.getPropertyPriority(c);return`${c}: ${d}${e?" !important":""};`}).join(" ")}
+function G(a,b,c,d){a=window.getComputedStyle(a,c);var e=a.getPropertyValue("content");if(e!==""&&e!=="none"){var f=v();try{b.className=`${b.className} ${f}`}catch(k){return}e=document.createElement("style");var g=e.appendChild;c=`.${f}:${c}`;a.cssText?(d=a.getPropertyValue("content"),d=`${a.cssText} content: '${d.replace(/'|"/g,"")}';`):d=F(a,d);g.call(e,document.createTextNode(`${c}{${d}}`));b.appendChild(e)}};function H(a){return a.search(/^(data:)/)!==-1}function I(a,b,c){return t(function*(){var d=yield fetch(a,b);if(d.status===404)throw Error(`Resource "${d.url}" not found`);var e=yield d.blob();return new Promise((f,g)=>{var k=new FileReader;k.onerror=g;k.onloadend=()=>{try{f(c({v:d,result:k.result}))}catch(m){g(m)}};k.readAsDataURL(e)})})}const J={};function aa(a,b,c){var d=a.replace(/\?.*/,"");c&&(d=a);/ttf|otf|eot|woff2?/i.test(d)&&(d=d.replace(/.*\//,""));return b?`[${b}]${d}`:d}
+function K(a,b,c){return t(function*(){var d=aa(a,b,c.F);if(J[d]!=null)return J[d];c.B&&(a+=(/\?/.test(a)?"&":"?")+(new Date).getTime());try{let f=yield I(a,c.l,({v:g,result:k})=>{b||(b=g.headers.get("Content-Type")||"");return k.split(/,/)[1]});var e=`data:${b};base64,${f}`}catch(f){e=c.o||""}return J[d]=e})};const L={R:"application/font-woff",S:"application/font-woff",O:"application/font-truetype",C:"application/vnd.ms-fontobject",J:"image/png",H:"image/jpeg",G:"image/jpeg",D:"image/gif",N:"image/tiff",M:"image/svg+xml",P:"image/webp"};function M(a){return(a=/\.([^./]*?)$/g.exec(a))?a[1]:""};function ba(a){return t(function*(){var b=a.toDataURL();return b==="data:,"?a.cloneNode(!1):B(b)})}function ca(a,b){return t(function*(){if(a.currentSrc){var c=document.createElement("canvas");let d=c.getContext("2d");c.width=a.clientWidth;c.height=a.clientHeight;d==null||d.drawImage(a,0,0,c.width,c.height);c=c.toDataURL();return B(c)}c=a.poster;c=yield K(c,L[M(c).toLowerCase()]||"",b);return B(c)})}
+function da(a,b){return t(function*(){try{let c;if(a==null?0:(c=a.contentDocument)==null?0:c.body)return yield N(a.contentDocument.body,b,!0)}catch(c){}return a.cloneNode(!1)})}function ea(a,b){return t(function*(){return E(a,HTMLCanvasElement)?ba(a):E(a,HTMLVideoElement)?ca(a,b):E(a,HTMLIFrameElement)?da(a,b):a.cloneNode(a.tagName!=null&&a.tagName.toUpperCase()==="SVG")})}
+function fa(a,b,c){return t(function*(){if(b.tagName!=null&&b.tagName.toUpperCase()==="SVG")return b;var d=[];if(a.tagName!=null&&a.tagName.toUpperCase()==="SLOT"&&a.assignedNodes)d=w(a.assignedNodes());else{let e;if(E(a,HTMLIFrameElement)&&((e=a.contentDocument)==null?0:e.body))d=w(a.contentDocument.body.childNodes);else{let f;d=w(((f=a.shadowRoot)!=null?f:a).childNodes)}}if(d.length===0||E(a,HTMLVideoElement))return b;yield d.reduce((e,f)=>e.then(()=>N(f,c)).then(g=>{g&&b.appendChild(g)}),Promise.resolve());
+return b})}function ha(a,b,c){var d=b.style;if(d){var e=window.getComputedStyle(a);e.cssText?(d.cssText=e.cssText,d.transformOrigin=e.transformOrigin):y(c).forEach(f=>{var g=e.getPropertyValue(f);f==="font-size"&&g.endsWith("px")&&(g=`${Math.floor(parseFloat(g.substring(0,g.length-2)))-.1}px`);E(a,HTMLIFrameElement)&&f==="display"&&g==="inline"&&(g="block");f==="d"&&b.getAttribute("d")&&(g=`path(${b.getAttribute("d")})`);d.setProperty(f,g,e.getPropertyPriority(f))})}}
+function ia(a,b){E(a,HTMLSelectElement)&&(b=Array.from(b.children).find(c=>a.value===c.getAttribute("value")))&&b.setAttribute("selected","")}
+function ja(a,b){return t(function*(){var c=a.querySelectorAll?a.querySelectorAll("use"):[];if(c.length===0)return a;var d={};for(var e=0;e<c.length;e++){var f=c[e].getAttribute("xlink:href");if(f){let g=document.querySelector(f);a.querySelector(f)||!g||d[f]||(d[f]=yield N(g,b,!0))}}c=Object.values(d);if(c.length){d=document.createElementNS("http://www.w3.org/1999/xhtml","svg");d.setAttribute("xmlns","http://www.w3.org/1999/xhtml");d.style.position="absolute";d.style.width="0";d.style.height="0";
+d.style.overflow="hidden";d.style.display="none";e=document.createElementNS("http://www.w3.org/1999/xhtml","defs");d.appendChild(e);for(f=0;f<c.length;f++)e.appendChild(c[f]);a.appendChild(d)}return a})}
+function N(a,b,c){return t(function*(){return c||!b.filter||b.filter(a)?Promise.resolve(a).then(d=>ea(d,b)).then(d=>fa(a,d,b)).then(d=>{E(d,Element)&&(ha(a,d,b),G(a,d,":before",b),G(a,d,":after",b),E(a,HTMLTextAreaElement)&&(d.textContent=a.value),E(a,HTMLInputElement)&&d.setAttribute("value",a.value),ia(a,d));return d}).then(d=>ja(d,b)):null})};const O=/url\((['"]?)([^'"]+?)\1\)/g,ka=/url\([^)]+\)\s*format\((["']?)([^"']+)\1\)/g,la=/src:\s*(?:url\([^)]+\)\s*format\([^)]+\)[,;]\s*)+/g;function ma(a){var b=[];a.replace(O,(c,d,e)=>{b.push(e);return c});return b.filter(c=>!H(c))}
+function na(a,b,c,d){return t(function*(){try{let e=c?(new URL(b,c||void 0)).toString():b,f;f=yield K(e,L[M(b).toLowerCase()]||"",d);return a.replace(new RegExp(`(url\\(['"]?)(${b.replace(/([.*+?^${}()|\[\]\/\\])/g,"\\$1")})(['"]?\\))`,"g"),`$1${f}$3`)}catch(e){}return a})}function oa(a,{K:b}){return b?a.replace(la,c=>{for(;;){let [d,,e]=ka.exec(c)||[];if(!e)return"";if(e===b)return`src: ${d};`}}):a}
+function P(a,b,c){return t(function*(){if(a.search(O)===-1)return a;var d=oa(a,c);return ma(d).reduce((e,f)=>e.then(g=>na(g,f,b,c)),Promise.resolve(d))})};function Q(a,b,c){return t(function*(){var d,e=(d=b.style)==null?void 0:d.getPropertyValue(a);return e?(d=yield P(e,null,c),b.style.setProperty(a,d,b.style.getPropertyPriority(a)),!0):!1})}function pa(a,b){return t(function*(){(yield Q("background",a,b))||(yield Q("background-image",a,b));(yield Q("mask",a,b))||(yield Q("-webkit-mask",a,b))||(yield Q("mask-image",a,b))||(yield Q("-webkit-mask-image",a,b))})}
+function qa(a,b){return t(function*(){var c=E(a,HTMLImageElement);if(c&&!H(a.src)||E(a,SVGImageElement)&&!H(a.href.baseVal)){var d=c?a.src:a.href.baseVal,e=yield K(d,L[M(d).toLowerCase()]||"",b);yield new Promise((f,g)=>{a.onload=f;a.onerror=b.h?(...k)=>{try{f(b.h(...k))}catch(m){g(m)}}:g;a.decode&&(a.decode=f);a.loading==="lazy"&&(a.loading="eager");c?(a.srcset="",a.src=e):a.href.baseVal=e})}})}
+function ra(a,b){return t(function*(){var c=w(a.childNodes).map(d=>R(d,b));yield Promise.all(c).then(()=>a)})}function R(a,b){return t(function*(){E(a,Element)&&(yield pa(a,b),yield qa(a,b),yield ra(a,b))})};const S={};function T(a){return t(function*(){var b=S[a];if(b!=null)return b;b=yield(yield fetch(a)).text();b={url:a,cssText:b};return S[a]=b})}function U(a,b){return t(function*(){var c=a.cssText,d=/url\(["']?([^"')]+)["']?\)/g,e=(c.match(/url\([^)]+\)/g)||[]).map(f=>t(function*(){var g=f.replace(d,"$1");g.startsWith("https://")||(g=(new URL(g,a.url)).href);return I(g,b.l,({result:k})=>{c=c.replace(f,`url(${k})`);return[f,k]})}));return Promise.all(e).then(()=>c)})}
+function V(a){if(a==null)return[];var b=[];a=a.replace(/(\/\*[\s\S]*?\*\/)/gi,"");for(var c=RegExp("((@.*?keyframes [\\s\\S]*?){([\\s\\S]*?}\\s*?)})","gi");;){var d=c.exec(a);if(d===null)break;b.push(d[0])}a=a.replace(c,"");c=/@import[\s\S]*?url\([^)]*\)[\s\S]*?;/gi;for(d=RegExp("((\\s*?(?:\\/\\*[\\s\\S]*?\\*\\/)?\\s*?@media[\\s\\S]*?){([\\s\\S]*?)}\\s*?})|(([\\s\\S]*?){([\\s\\S]*?)})","gi");;){let e=c.exec(a);if(e===null)if(e=d.exec(a),e===null)break;else c.lastIndex=d.lastIndex;else d.lastIndex=
+c.lastIndex;b.push(e[0])}return b}
+function sa(a,b){return t(function*(){var c=[],d=[];a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach((f,g)=>{if(f.type===CSSRule.IMPORT_RULE){let k=g+1;f=T(f.href).then(m=>U(m,b)).then(m=>V(m).forEach(q=>{try{e.insertRule(q,q.startsWith("@import")?k+=1:e.cssRules.length)}catch(Fa){}})).catch(()=>{});d.push(f)}})}catch(f){let g=a.find(k=>k.href==null)||document.styleSheets[0];e.href!=null&&d.push(T(e.href).then(k=>U(k,b)).then(k=>V(k).forEach(m=>{g.insertRule(m,g.cssRules.length)})).catch(()=>
+{}))}});return Promise.all(d).then(()=>{a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach(f=>{c.push(f)})}catch(f){}});return c})})}function ta(a){return a.filter(b=>b.type===CSSRule.FONT_FACE_RULE).filter(b=>b.style.getPropertyValue("src").search(O)!==-1)}function ua(a,b){return t(function*(){if(a.ownerDocument==null)throw Error("Provided element is not within a Document");var c=w(a.ownerDocument.styleSheets);c=yield sa(c,b);return ta(c)})}
+function va(a){function b(d){(d.style.fontFamily||getComputedStyle(d).fontFamily).split(",").forEach(e=>{c.add(e.trim().replace(/["']/g,""))});Array.from(d.children).forEach(e=>{e instanceof HTMLElement&&b(e)})}var c=new Set;b(a);return c}function wa(a,b){return t(function*(){var c=yield ua(a,b),d=va(a);return(yield Promise.all(c.filter(e=>d.has(e.style.fontFamily.trim().replace(/["']/g,""))).map(e=>P(e.cssText,e.parentStyleSheet?e.parentStyleSheet.href:null,b)))).join("\n")})}
+function xa(a,b){return t(function*(){var c=b.m!=null?b.m:b.A?null:yield wa(a,b);if(c){let d=document.createElement("style");d.appendChild(document.createTextNode(c));a.firstChild?a.insertBefore(d,a.firstChild):a.appendChild(d)}})};function ya(a,b={}){return t(function*(){var {width:c,height:d}=A(a,b),e=yield N(a,b,!0);yield xa(e,b);yield R(e,b);u(e,b);return yield D(e,c,d)})}
+function za(a,b={}){return t(function*(){var {width:c,height:d}=A(a,b),e=yield ya(a,b);e=yield B(e);var f=document.createElement("canvas"),g=f.getContext("2d"),k=b.I||window.devicePixelRatio||1,m=b.j||c,q=b.i||d;f.width=m*k;f.height=q*k;!b.L&&(f.width>16384||f.height>16384)&&(f.width>16384&&f.height>16384?f.width>f.height?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=16384):f.width>16384?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=16384));
+f.style.width=`${m}`;f.style.height=`${q}`;b.backgroundColor&&(g.fillStyle=b.backgroundColor,g.fillRect(0,0,f.width,f.height));g.drawImage(e,0,0,f.width,f.height);return f})}function Aa(a,b={}){return t(function*(){return(yield za(a,b)).toDataURL()})};const Ba=["gemini.google.com","corp.google.com","proxy.googlers.com"];function W(){return document.body.querySelectorAll('[class*="animate"]').length>0}function X(a,b){var c=document.createElement("canvas");c.width=a;c.height=b;return c.toDataURL("image/png")}const Y=X(1,1);
+function Z(a){return t(function*(){try{return yield Aa(a,{j:a.offsetWidth,i:a.offsetHeight,A:!0,filter:b=>{if(b.tagName==="IMG"){let c=b.getAttribute("src");if(!c||c.trim()===""||b.style.display==="none")return!1}return!0},o:Y,h:()=>Y})}catch(b){return X(a.offsetWidth,a.offsetHeight)}})}
+function Ca(){return t(function*(){var a=document.body.offsetWidth,b=document.body.offsetHeight,c=document.body.cloneNode(!0);c.querySelectorAll('[class*="animate"]').forEach(d=>{d.classList.remove(...Array.from(d.classList).filter(e=>e.startsWith("animate")))});c.style.width=`${a}px`;c.style.height=`${b}px`;return c})}
+function Da(a){return t(function*(){var b=document.body;if(W()){var c=yield Ca();b=c;document.body.appendChild(c)}c=yield Z(b);W()&&document.body.removeChild(b);window.parent.postMessage({type:"SEND_SCREENSHOT",image:c,topOffset:document.documentElement.scrollTop},a.origin)})}function Ea(a){return t(function*(){var b={type:"SEND_SCREENSHOT_FOR_DATA_VISUALIZATION",image:yield Z(document.body),topOffset:0};window.parent.postMessage(b,a.origin)})}
+window.addEventListener("message",a=>t(function*(){if(Ba.some(c=>a.origin.includes(c))){var b=a.data;b&&(b.type==="MAKE_SCREENSHOT"&&(yield Da(a)),b.type==="MAKE_SCREENSHOT_FOR_DATA_VISUALIZATION"&&(yield Ea(a)))}}));
+})();</script><script data-bard-client-injected="true">(function() {
+  // Ensure this script is executed only once
+  if (window.firebaseAuthBridgeScriptLoaded) {
+    return;
+  }
+  window.firebaseAuthBridgeScriptLoaded = true;
+
+  let nextTokenPromiseId = 0;
+
+  // Stores { resolve, reject } for ongoing token requests
+  const pendingTokenPromises = {};
+
+  // Listen for messages from the Host Application
+  window.addEventListener('message', function(event) {
+
+    const messageData = event.data;
+
+  if (messageData && messageData.type === 'RESOLVE_NEW_FIREBASE_TOKEN') {
+      const { success, token, error, promiseId } = messageData ?? {};
+      if (pendingTokenPromises[promiseId]) {
+        if (success) {
+          pendingTokenPromises[promiseId].resolve(token);
+        } else {
+          pendingTokenPromises[promiseId].reject(new Error(error || 'Token refresh failed from host.'));
+        }
+        delete pendingTokenPromises[promiseId];
+      }
+    }
+  });
+
+  // Expose a function for the Generated App to request a new Firebase token
+  window.requestNewFirebaseToken = function() {
+    const currentPromiseId = nextTokenPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingTokenPromises[currentPromiseId] = { resolve, reject };
+    });
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({
+        type: 'REQUEST_NEW_FIREBASE_TOKEN',
+        promiseId: currentPromiseId
+      }, '*');
+    } else {
+      pendingTokenPromises[currentPromiseId].reject(new Error('No parent window to request token from.'));
+      delete pendingTokenPromises[currentPromiseId];
+    }
+    return promise;
+  };
+})();</script><script data-bard-client-injected="true">
+let realOriginalGetUserMedia = null;
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+  realOriginalGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+}
+
+(function() {
+  if (navigator.mediaDevices && navigator.mediaDevices.__proto__) {
+    try {
+      Object.defineProperty(navigator.mediaDevices.__proto__, 'getUserMedia', {
+        get: function() {
+          return undefined; // Or throw an error
+        },
+        configurable: false
+      });
+    } catch (error) {
+      console.error("Error defining prototype getter:", error);
+    }
+  }
+})();
+
+(function() {
+  const pendingMediaResolvers = {};
+  let nextMediaPromiseId = 0;
+
+  function requestMediaPermissions(constraints) {
+    const mediaPromiseId = nextMediaPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingMediaResolvers[mediaPromiseId] = (granted) => {
+        delete pendingMediaResolvers[mediaPromiseId];
+        resolve(granted);
+      };
+    });
+
+    window.parent.postMessage({
+      type: 'requestMediaPermission',
+      constraints: constraints,
+      promiseId: mediaPromiseId,
+    }, '*');
+
+    return promise;
+  }
+
+  let originalGetUserMedia = realOriginalGetUserMedia;
+
+  function interceptGetUserMedia() {
+    if (navigator.mediaDevices) {
+      Object.defineProperty(navigator.mediaDevices, 'getUserMedia', {
+        value: function(constraints) {
+          return requestMediaPermissions(constraints).then((granted) => {
+            if (granted) {
+              if (originalGetUserMedia) {
+                return originalGetUserMedia(constraints);
+              } else {
+                throw new Error("Original getUserMedia not available.");
+              }
+            } else {
+              throw new DOMException('Permission denied', 'NotAllowedError');
+            }
+          });
+        },
+        writable: false,
+        configurable: false
+      });
+    }
+  }
+
+  interceptGetUserMedia();
+
+  const observer = new MutationObserver(function(mutationsList, observer) {
+    for (const mutation of mutationsList) {
+      if (mutation.type === 'reconfigured' && mutation.name === 'getUserMedia' && mutation.object === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'attributes' && mutation.attributeName === 'getUserMedia' && mutation.target === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'childList' && mutation.addedNodes) {
+        mutation.addedNodes.forEach(node => {
+          if (node === navigator.mediaDevices) {
+            interceptGetUserMedia();
+          }
+        });
+      }
+    }
+  });
+
+  function interceptSpeechRecognition() {
+    if (!window.SpeechRecognition && !window.webkitSpeechRecognition) {
+      return;
+    }
+
+    const OriginalSpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    const SpeechRecognitionWrapper = function(...args) {
+      const recognizer = new OriginalSpeechRecognition(...args);
+      const originalStart = recognizer.start.bind(recognizer);
+
+      recognizer.start = function() {
+        requestMediaPermissions({ audio: true }).then(granted => {
+          if (granted) {
+            originalStart();
+          } else {
+            const errorEvent = new SpeechRecognitionErrorEvent('error');
+            errorEvent.error = 'not-allowed'; // This is the standard error for permission denial.
+            recognizer.dispatchEvent(errorEvent);
+          }
+        });
+      };
+
+      return recognizer;
+    };
+
+    SpeechRecognitionWrapper.prototype = OriginalSpeechRecognition.prototype;
+    SpeechRecognitionWrapper.prototype.constructor = SpeechRecognitionWrapper;
+
+    if (window.SpeechRecognition) {
+      window.SpeechRecognition = SpeechRecognitionWrapper;
+    }
+    if (window.webkitSpeechRecognition) {
+      window.webkitSpeechRecognition = SpeechRecognitionWrapper;
+    }
+  }
+
+  interceptSpeechRecognition();
+
+  window.addEventListener('message', function(event) {
+    if (event.data) {
+      if (event.data.type === 'resolveMediaPermission') {
+        const { promiseId, granted } = event.data;
+        if (pendingMediaResolvers[promiseId]) {
+          pendingMediaResolvers[promiseId](granted);
+        }
+      }
+    }
+  });
+
+})();</script><script ws-interception-config="{&quot;parentOrigin&quot;:&quot;https://gemini.google.com&quot;,&quot;proxiedDomains&quot;:[]}" data-bard-client-injected="true">(function(){'use strict';var u=typeof Object.defineProperties=="function"?Object.defineProperty:function(b,d,e){if(b==Array.prototype||b==Object.prototype)return b;b[d]=e.value;return b};function v(b){b=["object"==typeof globalThis&&globalThis,b,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var d=0;d<b.length;++d){var e=b[d];if(e&&e.Math==Math)return e}throw Error("Cannot find global object");}var w=v(this);
+function y(b,d){if(d)a:{var e=w;b=b.split(".");for(var h=0;h<b.length-1;h++){var k=b[h];if(!(k in e))break a;e=e[k]}b=b[b.length-1];h=e[b];d=d(h);d!=h&&d!=null&&u(e,b,{configurable:!0,writable:!0,value:d})}}function z(b){function d(h){return b.next(h)}function e(h){return b.throw(h)}return new Promise(function(h,k){function m(n){n.done?h(n.value):Promise.resolve(n.value).then(d,e).then(m,k)}m(b.next())})}y("globalThis",function(b){return b||w});/*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+function A(b,d){function e(){}e.prototype=d.prototype;b.j=d.prototype;b.prototype=new e;b.prototype.constructor=b;b.h=function(h,k,m){for(var n=Array(arguments.length-2),p=2;p<arguments.length;p++)n[p-2]=arguments[p];return d.prototype[k].apply(h,n)}};function B(b,d,e="*"){function h(a){if(typeof a==="string")return F.encode(a).buffer;if(a instanceof ArrayBuffer)return a.slice(0);if(ArrayBuffer.isView(a))return a.buffer.slice(a.byteOffset,a.byteOffset+a.byteLength);throw Error("Invalid data type");}function k(a){a=h(a);var f={type:"send",data:new Uint8Array(a)},g;(g=r)==null||g.postMessage(f,[a])}function m(){if(!r)throw Error("Data port not captured yet.");r.onmessage=a=>{if(a.data.type==="message"){a=new MessageEvent("message",{data:G.decode(a.data.data)});
+let f;(f=c.onmessage)==null||f.call(c,a);c.dispatchEvent(a)}}}function n(){if(!t)throw Error("Control port not captured yet.");t.onmessage=a=>{switch(a.data.type){case "open":l=1;var f=new Event("open"),g;(g=c.onopen)==null||g.call(c,f);c.dispatchEvent(f);q.forEach(H=>{k(H)});q=[];break;case "close":g=a.data;l=3;g=new CloseEvent("close",{code:g.code,reason:g.reason,wasClean:g.wasClean});(f=c.onclose)==null||f.call(c,g);c.dispatchEvent(g);break;case "error":l=3;f=new Event("error");let x;(x=c.onerror)==
+null||x.call(c,f);c.dispatchEvent(f)}}}function p(a){return z(function*(){var f=new MessageChannel;t=f.port1;var g=new MessageChannel;r=g.port1;n();m();window.parent.postMessage({type:"websocket_open",portOrdering:["control","data"],url:b,protocols:a||[],connectionId:I},e,[f.port2,g.port2])}())}var c=Reflect.construct(EventTarget,[],new.target);c.CONNECTING=0;c.OPEN=1;c.CLOSING=2;c.CLOSED=3;c.url=b;c.binaryType="arraybuffer";c.protocol="";c.i="";var l=0,t=null,r=null,q=[],F=new TextEncoder,G=new TextDecoder;
+c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;Object.defineProperty(c,"readyState",{get:()=>l,enumerable:!0,configurable:!0});Object.defineProperty(c,"bufferedAmount",{get:()=>{var a=0;q.forEach(f=>{a+=typeof f==="string"?f.length:f.byteLength});return a},enumerable:!0,configurable:!0});var I=function(){var a;return((a=globalThis.crypto)==null?0:a.randomUUID)?globalThis.crypto.randomUUID():"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,f=>{var g=Math.random()*16|0;return(f===
+"x"?g:g&3|8).toString(16)})}();c.send=a=>{if(l===1)a instanceof Blob?a.arrayBuffer().then(f=>{k(f)}):k(a);else if(l===0)if(typeof a==="string")q.push(a);else if(a instanceof ArrayBuffer||ArrayBuffer.isView(a))q.push(h(a));else throw Error("Sending Blob is not supported before the connection is open.");else console.debug("WebSocket send called in CLOSING or CLOSED state; ignored.")};c.close=(a=1E3,f="")=>{if(l!==2&&l!==3){l=2;a={type:"close",code:a,reason:f,wasClean:a===1E3};var g;(g=t)==null||g.postMessage(a)}};
+Promise.resolve().then(()=>p(d));return c}A(B,EventTarget);var C=document.currentScript,D=C==null?void 0:C.getAttribute("ws-interception-config");if(!D)throw Error("WebSocket Interceptor: Missing ws-interception-config attribute in the script tag.");var E=JSON.parse(D);if(!E.parentOrigin||typeof E.parentOrigin!=="string")throw Error("WebSocket Interceptor: Invalid parentOrigin in ws-interception-config");
+(function(b){var d=Object.getOwnPropertyDescriptor(window,"WebSocket");if(!d||d.writable||d.configurable)d=Object.assign(function(e,h){try{let k=(new URL(e)).hostname;if(b.proxiedDomains.some(m=>k===m||k.endsWith(`.${m}`)))return new B(e,h,b.parentOrigin)}catch(k){throw window.parent.postMessage({type:"websocket_blocked",url:e,reason:"blocked_invalid_url"},b.parentOrigin),new DOMException(`WebSocket connection to '${e}' is not allowed in Canvas.`,"SecurityError");}window.parent.postMessage({type:"websocket_blocked",
+url:e,reason:"blocked_domain_not_allowlisted"},b.parentOrigin);throw new DOMException(`WebSocket connection to '${e}' is not allowed in Canvas.`,"SecurityError");},{CONNECTING:0,OPEN:1,CLOSING:2,CLOSED:3}),Object.defineProperty(window,"WebSocket",{value:d,writable:!1,configurable:!1})})({proxiedDomains:E.proxiedDomains||[],parentOrigin:E.parentOrigin});}).call(this);
+</script><script data-bard-client-injected="true">((function(modelInformation) {
+  const originalFetch = window.fetch;
+  // TODO: b/421908508 - Move these out of the script and match all generative AI model calls.
+  let googleLlmBaseApiUrls = [
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':streamGenerateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageEditModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageTransformModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.ttsModelName + ':generateContent',
+  ];
+  modelInformation.deprecatedTextModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+    );
+  });
+  modelInformation.deprecatedImageModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predict',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predictLongRunning',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+    );
+  });
+  modelInformation.deprecatedGenerateImageModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+    );
+  });
+  modelInformation.deprecatedImageTransformModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+    );
+  });
+
+  const pendingFetchResolvers = {};
+  let nextPromiseId = 0;
+
+  function handleStringInput(input, optionsArgument) {
+    const actualUrl = input;
+    const fetchCallArgs = [actualUrl, optionsArgument];
+    const effectiveOptions = optionsArgument || {};
+    const bodyForApiKeyCheck = effectiveOptions.body;
+    const bodyForPostMessage = effectiveOptions.body;
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  function handleRequestInput(input, optionsArgument) {
+    const actualUrl = input.url;
+    const fetchCallArgs = [input, optionsArgument];
+    const effectiveOptions = { method: input.method, headers: new Headers(input.headers) };
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (optionsArgument) {
+      if (optionsArgument.method) effectiveOptions.method = optionsArgument.method;
+      if (optionsArgument.headers) effectiveOptions.headers = new Headers(optionsArgument.headers);
+      if ('body' in optionsArgument) {
+        bodyForApiKeyCheck = optionsArgument.body;
+        bodyForPostMessage = optionsArgument.body;
+      } else {
+        bodyForApiKeyCheck = undefined;
+        bodyForPostMessage = input.body;
+      }
+    } else {
+      bodyForApiKeyCheck = undefined;
+      bodyForPostMessage = input.body;
+    }
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  window.fetch = function(input, optionsArgument) {
+    let actualUrl;
+    let fetchCallArgs;
+    let effectiveOptions = {};
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (typeof input === 'string') {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleStringInput(input, optionsArgument));
+    } else if (input instanceof Request) {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleRequestInput(input, optionsArgument));
+    } else {
+      return originalFetch.apply(window, [input, optionsArgument]);
+    }
+
+    effectiveOptions.method = effectiveOptions.method || 'GET';
+    if (!effectiveOptions.headers) {
+      effectiveOptions.headers = new Headers();
+    }
+
+
+    if (typeof actualUrl === 'string' && googleLlmBaseApiUrls.some((url) => actualUrl.startsWith(url))) {
+      let apiKeyIsNull = true;
+
+      const regex = new RegExp("models/([^:]+)");
+      const modelNameMatch = actualUrl.match(regex);
+      const modelName = modelNameMatch ? modelNameMatch[1] : 'unspecified';
+
+
+      try {
+        const urlObject = new URL(actualUrl);  // Use URL object for robust parsing
+        const apiKeyParam = urlObject.searchParams.get('key');
+        if (apiKeyParam) {
+          apiKeyIsNull = false;
+        }
+      } catch (e) {
+        // Continue checks even if URL parsing fails
+      }
+
+      if (apiKeyIsNull && effectiveOptions.headers) {
+        const h = new Headers(effectiveOptions.headers);
+        const apiKeyHeaderValue = h.get('X-API-Key') || h.get('x-api-key');
+        if (apiKeyHeaderValue) {
+          apiKeyIsNull = false;
+          return originalFetch.apply(window, fetchCallArgs);
+        }
+      }
+
+      if (apiKeyIsNull && effectiveOptions.method && ['POST', 'PUT', 'PATCH'].includes(effectiveOptions.method.toUpperCase()) && typeof bodyForApiKeyCheck === 'string') {
+        try {
+          const bodyData = JSON.parse(bodyForApiKeyCheck);
+          if (bodyData && bodyData.apiKey) {
+            apiKeyIsNull = false;
+            return originalFetch.apply(window, fetchCallArgs);
+          }
+        } catch (e) {
+          // Ignore JSON parsing errors
+        }
+      }
+
+      if(apiKeyIsNull) {
+        const promiseId = nextPromiseId++;
+        const promise = new Promise((resolve) => {
+          pendingFetchResolvers[promiseId] = (resolvedResponse) => {
+            delete pendingFetchResolvers[promiseId];
+            resolve(resolvedResponse);
+          };
+        });
+
+        let serializedBodyForPostMessage;
+        if (typeof bodyForPostMessage === 'string' || bodyForPostMessage == null) {
+            serializedBodyForPostMessage = bodyForPostMessage;
+        } else if (bodyForPostMessage instanceof ReadableStream) {
+            serializedBodyForPostMessage = null;
+        } else {
+            try {
+                serializedBodyForPostMessage = JSON.stringify(bodyForPostMessage);
+            } catch (e) {
+                serializedBodyForPostMessage = null;
+            }
+        }
+
+        const messageOptions = {
+            method: effectiveOptions.method,
+            headers: Object.fromEntries(new Headers(effectiveOptions.headers).entries()),
+            body: serializedBodyForPostMessage
+        };
+
+        window.parent.postMessage({
+          type: 'requestFetch',
+          url: actualUrl,
+          modelName: modelName,
+          options: messageOptions,
+          promiseId: promiseId,
+        }, '*');
+
+        return promise;
+      }
+      return originalFetch.apply(window, fetchCallArgs);
+    }
+    return originalFetch.apply(window, fetchCallArgs);
+  };
+
+  window.addEventListener('message', function(event) {
+    if (event.data && event.data.type === 'resolveFetch') {
+      const { promiseId, response } = event.data;
+      if (pendingFetchResolvers[promiseId]) {
+        try {
+          const reconstructedResponse = new Response(response.body, {
+            status: response.status,
+            statusText: response.statusText,
+            headers: new Headers(response.headers),
+          });
+          pendingFetchResolvers[promiseId](reconstructedResponse);
+        } catch (error) {
+          pendingFetchResolvers[promiseId](new Response(null, { status: 500, statusText: "Interceptor Response Reconstruction Error" }));
+        }
+      }
+    }
+  });
+
+}))({"textModelName":"gemini-3-flash-preview","imageModelName":"imagen-4.0-generate-001","imageEditModelName":"gemini-3.1-flash-image","imageTransformModelName":"gemini-3-pro-image","videoModelName":"veo-2.0-generate-001","ttsModelName":"gemini-2.5-flash-preview-tts","deprecatedTextModelNames":["gemini-2.0-flash","gemini-2.5-flash","gemini-2.5-flash-preview-04-17","gemini-2.5-flash-preview-05-20","gemini-2.5-flash-preview-09-2025"],"deprecatedImageModelNames":["imagen-3.0-generate-001","imagen-3.0-generate-002"],"deprecatedGenerateImageModelNames":["gemini-2.5-flash-image-preview","gemini-2.5-flash-image","gemini-3.1-flash-image-preview"],"deprecatedImageTransformModelNames":["gemini-3-pro-image-preview-11-2025"]})</script><script data-bard-client-injected="true">(function(){'use strict';function a(){window.parent.postMessage({type:"interaction"},"*")}window.addEventListener("click",a,{capture:!0,passive:!0});window.addEventListener("touchstart",a,{capture:!0,passive:!0});window.addEventListener("keydown",a,{capture:!0,passive:!0});}).call(this);
+</script><script data-bard-client-injected="true">(function() {
+  const originalConsoleLog = console.log;
+  const originalConsoleError = console.error;
+
+    /**
+   * Normalizes an error event or a promise rejection reason into a structured error object.
+   * @param {*} errorEventOrReason The error object or reason.
+   * @return {object} Structured error data { message, name, stack }.
+   */
+  function getErrorObject(errorEventOrReason) {
+    if (errorEventOrReason instanceof Error) {
+      return {
+        message: errorEventOrReason.message,
+        name: errorEventOrReason.name,
+        stack: errorEventOrReason.stack,
+      };
+    }
+    // Fallback for non-Error objects.
+    try {
+      return {
+        message: JSON.stringify(errorEventOrReason),
+        name: 'UnknownErrorType',
+        stack: null,
+      };
+    } catch (e) {
+      return {
+        message: String(errorEventOrReason),
+        name: 'UnknownErrorTypeNonStringifiable',
+        stack: null,
+      };
+    }
+  }
+
+  /**
+   * Converts an array of arguments (from log/error) into a single string.
+   * Handles Error objects specially to include their message and stack.
+   * @param {Array<*>} args - Arguments passed to console methods.
+   * @return {string} A string representation of the arguments.
+   */
+  function stringifyArgs(args) {
+    return args
+      .map((arg) => {
+        if (arg instanceof Error) {
+          const {message, stack} = arg;
+          return `Error: ${message}${stack ? ('\nStack: ' + stack) : ''}`;
+        }
+        if (typeof arg === 'object' && arg !== null) {
+          try {
+            return JSON.stringify(arg);
+          } catch (error) {
+            return '[Circular Object]';
+          }
+        } else {
+          return String(arg);
+        }
+      })
+      .join(' ');
+  }
+
+  console.log = function(...args) {
+    const logString = stringifyArgs(args);
+    window.parent.postMessage({ type: 'log', message: logString }, '*');
+    originalConsoleLog.apply(console, args);
+  };
+
+  console.error = function(...args) {
+    let errorData;
+    if (args.length > 0 && args[0] instanceof Error) {
+      const err = args[0];
+      // If the first arg is an Error, capture its details.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        ...getErrorObject(err),
+        rawArgsString: stringifyArgs(args.slice(1)),
+        timestamp: new Date().toISOString(),
+      };
+    } else {
+      // If not an Error object, treat all args as a general error message.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        message: stringifyArgs(args),
+        name: 'ConsoleLoggedError',
+        stack: null,
+        timestamp: new Date().toISOString(),
+      };
+    }
+    window.parent.postMessage(errorData, '*');
+    originalConsoleError.apply(console, args);
+  };
+
+  // Listen for global unhandled synchronous errors.
+  window.addEventListener('error', function(event) {
+    const errorDetails = event.error ? getErrorObject(event.error) : {
+      message: event.message,
+      name: 'GlobalError',
+      stack: null,
+      filename: event.filename,
+      lineno: event.lineno,
+      colno: event.colno,
+    };
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'global',
+      ...errorDetails,
+      message: errorDetails.message || event.message,
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+  // Listen for unhandled promise rejections (asynchronous errors).
+  window.addEventListener('unhandledrejection', function(event) {
+    const errorDetails = getErrorObject(event.reason);
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'unhandledrejection',
+      ...errorDetails,
+      message: errorDetails.message || 'Unhandled Promise Rejection',
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+})();</script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đấu Trường Toán Học Nhí - Ôn Tập &amp; Khám Phá</title>
+    <script src="https://cdn.tailwindcss.com/"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            font-family: 'Nunito', sans-serif;
+            background: linear-gradient(135deg, #e0f2fe 0%, #fef3c7 50%, #fbcfe8 100%);
+            min-height: 100vh;
+        }
+        .pop-card {
+            transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+        .pop-card:hover {
+            transform: translateY(-4px) scale(1.01);
+        }
+        .btn-bounce {
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+        .btn-bounce:active {
+            transform: scale(0.95);
+        }
+        .custom-drop {
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-8px); }
+        }
+        .animate-float {
+            animation: float 3s ease-in-out infinite;
+        }
+    </style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.inset-0{inset:0px}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.my-2{margin-top:0.5rem;margin-bottom:0.5rem}.mb-1{margin-bottom:0.25rem}.mb-2{margin-bottom:0.5rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mt-4{margin-top:1rem}.mr-2{margin-right:0.5rem}.mt-1{margin-top:0.25rem}.mt-3{margin-top:0.75rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-11{height:2.75rem}.h-14{height:3.5rem}.h-12{height:3rem}.h-3{height:0.75rem}.h-36{height:9rem}.h-7{height:1.75rem}.h-8{height:2rem}.w-11{width:2.75rem}.w-14{width:3.5rem}.w-full{width:100%}.w-12{width:3rem}.w-20{width:5rem}.w-3{width:0.75rem}.w-7{width:1.75rem}.w-px{width:1px}.max-w-2xl{max-width:42rem}.max-w-5xl{max-width:64rem}.max-w-sm{max-width:24rem}.flex-1{flex:1 1 0%}.scale-125{--tw-scale-x:1.25;--tw-scale-y:1.25;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.transform{transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-not-allowed{cursor:not-allowed}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.justify-around{justify-content:space-around}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-1\.5{gap:0.375rem}.rounded-2xl{border-radius:1rem}.rounded-3xl{border-radius:1.5rem}.rounded-full{border-radius:9999px}.rounded-xl{border-radius:0.75rem}.border{border-width:1px}.border-2{border-width:2px}.border-4{border-width:4px}.border-b{border-bottom-width:1px}.border-b-4{border-bottom-width:4px}.border-t{border-top-width:1px}.border-amber-300{--tw-border-opacity:1;border-color:rgb(252 211 77 / var(--tw-border-opacity, 1))}.border-amber-400{--tw-border-opacity:1;border-color:rgb(251 191 36 / var(--tw-border-opacity, 1))}.border-amber-600{--tw-border-opacity:1;border-color:rgb(217 119 6 / var(--tw-border-opacity, 1))}.border-amber-700{--tw-border-opacity:1;border-color:rgb(180 83 9 / var(--tw-border-opacity, 1))}.border-emerald-100{--tw-border-opacity:1;border-color:rgb(209 250 229 / var(--tw-border-opacity, 1))}.border-emerald-700{--tw-border-opacity:1;border-color:rgb(4 120 87 / var(--tw-border-opacity, 1))}.border-purple-100{--tw-border-opacity:1;border-color:rgb(243 232 255 / var(--tw-border-opacity, 1))}.border-purple-200{--tw-border-opacity:1;border-color:rgb(233 213 255 / var(--tw-border-opacity, 1))}.border-sky-100{--tw-border-opacity:1;border-color:rgb(224 242 254 / var(--tw-border-opacity, 1))}.border-sky-700{--tw-border-opacity:1;border-color:rgb(3 105 161 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.border-slate-300{--tw-border-opacity:1;border-color:rgb(203 213 225 / var(--tw-border-opacity, 1))}.border-amber-100{--tw-border-opacity:1;border-color:rgb(254 243 199 / var(--tw-border-opacity, 1))}.border-emerald-200{--tw-border-opacity:1;border-color:rgb(167 243 208 / var(--tw-border-opacity, 1))}.border-sky-300{--tw-border-opacity:1;border-color:rgb(125 211 252 / var(--tw-border-opacity, 1))}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.bg-amber-100{--tw-bg-opacity:1;background-color:rgb(254 243 199 / var(--tw-bg-opacity, 1))}.bg-amber-500{--tw-bg-opacity:1;background-color:rgb(245 158 11 / var(--tw-bg-opacity, 1))}.bg-emerald-100{--tw-bg-opacity:1;background-color:rgb(209 250 229 / var(--tw-bg-opacity, 1))}.bg-emerald-500{--tw-bg-opacity:1;background-color:rgb(16 185 129 / var(--tw-bg-opacity, 1))}.bg-purple-100{--tw-bg-opacity:1;background-color:rgb(243 232 255 / var(--tw-bg-opacity, 1))}.bg-purple-50{--tw-bg-opacity:1;background-color:rgb(250 245 255 / var(--tw-bg-opacity, 1))}.bg-sky-100{--tw-bg-opacity:1;background-color:rgb(224 242 254 / var(--tw-bg-opacity, 1))}.bg-sky-500{--tw-bg-opacity:1;background-color:rgb(14 165 233 / var(--tw-bg-opacity, 1))}.bg-slate-900\/60{background-color:rgb(15 23 42 / 0.6)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-white\/90{background-color:rgb(255 255 255 / 0.9)}.bg-amber-200{--tw-bg-opacity:1;background-color:rgb(253 230 138 / var(--tw-bg-opacity, 1))}.bg-amber-50{--tw-bg-opacity:1;background-color:rgb(255 251 235 / var(--tw-bg-opacity, 1))}.bg-amber-50\/70{background-color:rgb(255 251 235 / 0.7)}.bg-emerald-200{--tw-bg-opacity:1;background-color:rgb(167 243 208 / var(--tw-bg-opacity, 1))}.bg-emerald-50\/40{background-color:rgb(236 253 245 / 0.4)}.bg-purple-200{--tw-bg-opacity:1;background-color:rgb(233 213 255 / var(--tw-bg-opacity, 1))}.bg-purple-50\/50{background-color:rgb(250 245 255 / 0.5)}.bg-purple-600{--tw-bg-opacity:1;background-color:rgb(147 51 234 / var(--tw-bg-opacity, 1))}.bg-slate-100{--tw-bg-opacity:1;background-color:rgb(241 245 249 / var(--tw-bg-opacity, 1))}.bg-slate-200{--tw-bg-opacity:1;background-color:rgb(226 232 240 / var(--tw-bg-opacity, 1))}.bg-slate-300{--tw-bg-opacity:1;background-color:rgb(203 213 225 / var(--tw-bg-opacity, 1))}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.bg-gradient-to-tr{background-image:linear-gradient(to top right, var(--tw-gradient-stops))}.from-amber-400{--tw-gradient-from:#fbbf24 var(--tw-gradient-from-position);--tw-gradient-to:rgb(251 191 36 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.to-orange-500{--tw-gradient-to:#f97316 var(--tw-gradient-to-position)}.p-3{padding:0.75rem}.p-4{padding:1rem}.p-5{padding:1.25rem}.p-6{padding:1.5rem}.p-2{padding:0.5rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-2\.5{padding-top:0.625rem;padding-bottom:0.625rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.px-2\.5{padding-left:0.625rem;padding-right:0.625rem}.py-0\.5{padding-top:0.125rem;padding-bottom:0.125rem}.py-1\.5{padding-top:0.375rem;padding-bottom:0.375rem}.pb-4{padding-bottom:1rem}.pt-2{padding-top:0.5rem}.text-left{text-align:left}.text-center{text-align:center}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-6xl{font-size:3.75rem;line-height:1}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.text-base{font-size:1rem;line-height:1.5rem}.font-black{font-weight:900}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.italic{font-style:italic}.tracking-wide{letter-spacing:0.025em}.text-amber-500{--tw-text-opacity:1;color:rgb(245 158 11 / var(--tw-text-opacity, 1))}.text-amber-700{--tw-text-opacity:1;color:rgb(180 83 9 / var(--tw-text-opacity, 1))}.text-amber-800{--tw-text-opacity:1;color:rgb(146 64 14 / var(--tw-text-opacity, 1))}.text-emerald-700{--tw-text-opacity:1;color:rgb(4 120 87 / var(--tw-text-opacity, 1))}.text-emerald-800{--tw-text-opacity:1;color:rgb(6 95 70 / var(--tw-text-opacity, 1))}.text-orange-600{--tw-text-opacity:1;color:rgb(234 88 12 / var(--tw-text-opacity, 1))}.text-purple-700{--tw-text-opacity:1;color:rgb(126 34 206 / var(--tw-text-opacity, 1))}.text-purple-800{--tw-text-opacity:1;color:rgb(107 33 168 / var(--tw-text-opacity, 1))}.text-sky-700{--tw-text-opacity:1;color:rgb(3 105 161 / var(--tw-text-opacity, 1))}.text-sky-800{--tw-text-opacity:1;color:rgb(7 89 133 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-amber-600{--tw-text-opacity:1;color:rgb(217 119 6 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.opacity-40{opacity:0.4}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-emerald-200{--tw-shadow-color:#a7f3d0;--tw-shadow:var(--tw-shadow-colored)}.shadow-sky-200{--tw-shadow-color:#bae6fd;--tw-shadow:var(--tw-shadow-colored)}.backdrop-blur{--tw-backdrop-blur:blur(8px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\:border-purple-400:hover{--tw-border-opacity:1;border-color:rgb(192 132 252 / var(--tw-border-opacity, 1))}.hover\:border-sky-300:hover{--tw-border-opacity:1;border-color:rgb(125 211 252 / var(--tw-border-opacity, 1))}.hover\:bg-amber-600:hover{--tw-bg-opacity:1;background-color:rgb(217 119 6 / var(--tw-bg-opacity, 1))}.hover\:bg-emerald-600:hover{--tw-bg-opacity:1;background-color:rgb(5 150 105 / var(--tw-bg-opacity, 1))}.hover\:bg-sky-600:hover{--tw-bg-opacity:1;background-color:rgb(2 132 199 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-100:hover{--tw-bg-opacity:1;background-color:rgb(241 245 249 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-50:hover{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.hover\:bg-purple-50\/50:hover{background-color:rgb(250 245 255 / 0.5)}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-amber-400:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(251 191 36 / var(--tw-ring-opacity, 1))}.focus\:ring-sky-400:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(56 189 248 / var(--tw-ring-opacity, 1))}@media (min-width: 640px){.sm\:block{display:block}.sm\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}}@media (min-width: 768px){.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:gap-4{gap:1rem}.md\:p-6{padding:1.5rem}.md\:p-8{padding:2rem}.md\:px-6{padding-left:1.5rem;padding-right:1.5rem}.md\:text-2xl{font-size:1.5rem;line-height:2rem}.md\:text-base{font-size:1rem;line-height:1.5rem}.md\:text-sm{font-size:0.875rem;line-height:1.25rem}.md\:text-lg{font-size:1.125rem;line-height:1.75rem}.md\:text-xl{font-size:1.25rem;line-height:1.75rem}}@media (min-width: 1024px){.lg\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}}</style></head>
+<body class="text-slate-800 p-3 md:p-6 flex flex-col justify-between">
+
+    <header class="max-w-5xl mx-auto w-full mb-6">
+        <div class="bg-white/90 backdrop-blur rounded-3xl p-4 md:p-6 shadow-xl border-4 border-amber-300 flex flex-wrap items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+                <div class="w-14 h-14 rounded-2xl bg-gradient-to-tr from-amber-400 to-orange-500 flex items-center justify-center text-white text-3xl shadow-lg animate-float">
+                    🎓
+                </div>
+                <div>
+                    <h1 class="text-xl md:text-2xl font-black text-amber-700 uppercase tracking-wide">Đấu Trường Toán Học</h1>
+                    <p class="text-xs md:text-sm text-slate-500 font-bold">Chinh phục Góc • So sánh số • Làm tròn số</p>
+                </div>
+            </div>
+
+            <!-- Dashboard Score and Sound toggle -->
+            <div class="flex items-center gap-3">
+                <div class="bg-amber-100 border-2 border-amber-400 px-4 py-2 rounded-2xl flex items-center gap-2 font-black text-amber-800">
+                    <i class="fa-solid fa-star text-amber-500 text-lg"></i>
+                    <span>Điểm:</span>
+                    <span id="scoreDisplay" class="text-xl text-orange-600">0</span>
+                </div>
+                <button id="soundToggleBtn" onclick="toggleMute()" class="w-11 h-11 bg-white border-2 border-slate-200 rounded-2xl flex items-center justify-center text-slate-600 hover:bg-slate-50 transition shadow-sm" title="Bật/Tắt âm thanh">
+                    <i id="soundIcon" class="fa-solid fa-volume-high text-lg"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Navigation Tabs -->
+        <div class="flex justify-center gap-2 md:gap-4 mt-4">
+            <button onclick="switchTab(1)" id="tab-btn-1" class="tab-btn px-4 md:px-6 py-2.5 rounded-2xl font-black text-sm md:text-base border-b-4 border-amber-600 bg-amber-500 text-white shadow-md flex items-center gap-2">
+                <span>📐 Bài 1: Phân loại góc</span>
+            </button>
+            <button onclick="switchTab(2)" id="tab-btn-2" class="tab-btn px-4 md:px-6 py-2.5 rounded-2xl font-black text-sm md:text-base border-b-4 border-slate-300 bg-white text-slate-600 shadow-sm hover:bg-slate-100 flex items-center gap-2">
+                <span>⚖️ Bài 2: So sánh số</span>
+            </button>
+            <button onclick="switchTab(3)" id="tab-btn-3" class="tab-btn px-4 md:px-6 py-2.5 rounded-2xl font-black text-sm md:text-base border-b-4 border-slate-300 bg-white text-slate-600 shadow-sm hover:bg-slate-100 flex items-center gap-2">
+                <span>🎯 Bài 3: Làm tròn số</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto w-full flex-1">
+        <!-- TAB 1: BÀI 1 - CÁC LOẠI GÓC -->
+        <section id="game-tab-1" class="tab-content block">
+            <div class="bg-white rounded-3xl p-5 md:p-8 shadow-xl border border-sky-100">
+                <div class="flex flex-wrap items-center justify-between border-b pb-4 mb-6 gap-2">
+                    <div>
+                        <span class="inline-block px-3 py-1 bg-sky-100 text-sky-700 rounded-full font-bold text-xs uppercase mb-1">Thử thách 1</span>
+                        <h2 class="text-xl md:text-2xl font-black text-sky-800">Chọn từ thích hợp điền vào chỗ trống</h2>
+                        <p class="text-slate-500 text-sm">Quan sát kỹ hình dạng và số đo của góc để chọn tên gọi chính xác nhất!</p>
+                    </div>
+                    <button onclick="checkGame1()" class="btn-bounce bg-sky-500 hover:bg-sky-600 text-white font-black px-6 py-3 rounded-2xl shadow-lg shadow-sky-200 border-b-4 border-sky-700 flex items-center gap-2">
+                        <i class="fa-solid fa-circle-check"></i> Kiểm tra kết quả
+                    </button>
+                </div>
+
+                <!-- Grid góc vẽ SVG trực quan -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="anglesContainer">
+                        <div class="pop-card bg-amber-50/70 border-2 border-amber-300 rounded-3xl p-4 flex flex-col justify-between">
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="bg-amber-200 text-amber-800 text-xs font-black px-2.5 py-1 rounded-full uppercase">Mẫu có sẵn</span>
+                                <span class="text-xs text-amber-700 font-bold">Hình mẫu</span>
+                            </div>
+                            <div class="bg-white rounded-2xl p-2 border border-amber-100 flex items-center justify-center">
+                                
+                    <svg viewBox="0 0 200 140" class="w-full h-36">
+                        <!-- Cạnh BC ngang, BA nghiêng nhọn ~45 deg -->
+                        <line x1="40" y1="105" x2="170" y2="105" stroke="#0284c7" stroke-width="3" stroke-linecap="round"></line>
+                        <line x1="40" y1="105" x2="130" y2="25" stroke="#0284c7" stroke-width="3" stroke-linecap="round"></line>
+                        <circle cx="40" cy="105" r="4" fill="#0284c7"></circle>
+                        <text x="25" y="120" font-weight="bold" fill="#1e293b" font-size="14">B</text>
+                        <text x="175" y="112" font-weight="bold" fill="#1e293b" font-size="14">C</text>
+                        <text x="135" y="22" font-weight="bold" fill="#1e293b" font-size="14">A</text>
+                    </svg>
+                
+                            </div>
+                            <div class="mt-3">
+                                <p class="text-sm font-extrabold text-slate-700 mb-1">Góc đỉnh B; cạnh BA, BC</p>
+                                <div class="bg-sky-100 border border-sky-300 text-sky-700 font-black text-center py-2 rounded-xl text-base">
+                                    Góc nhọn
+                                </div>
+                            </div>
+                        </div>
+                    
+                    <div class="pop-card bg-white border-2 border-slate-200 hover:border-sky-300 rounded-3xl p-4 flex flex-col justify-between shadow-sm">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="bg-sky-100 text-sky-700 text-xs font-black px-2.5 py-1 rounded-full">Câu 1</span>
+                            <span id="feedback-g1-E" class="text-sm font-bold hidden"></span>
+                        </div>
+                        <div class="bg-slate-50 rounded-2xl p-2 border border-slate-100 flex items-center justify-center">
+                            
+                    <svg viewBox="0 0 200 140" class="w-full h-36">
+                        <!-- E đỉnh, EG sang phải, ED sang trái trên tù ~135 deg -->
+                        <line x1="100" y1="105" x2="185" y2="105" stroke="#0284c7" stroke-width="3" stroke-linecap="round"></line>
+                        <line x1="100" y1="105" x2="35" y2="35" stroke="#0284c7" stroke-width="3" stroke-linecap="round"></line>
+                        <circle cx="100" cy="105" r="4" fill="#0284c7"></circle>
+                        <text x="96" y="124" font-weight="bold" fill="#1e293b" font-size="14">E</text>
+                        <text x="190" y="112" font-weight="bold" fill="#1e293b" font-size="14">G</text>
+                        <text x="22" y="32" font-weight="bold" fill="#1e293b" font-size="14">D</text>
+                    </svg>
+                
+                        </div>
+                        <div class="mt-3">
+                            <p class="text-sm font-extrabold text-slate-700 mb-2">Góc đỉnh E; cạnh ED, EG</p>
+                            <select id="select-g1-E" onchange="AudioEngine.click()" class="w-full bg-slate-50 border-2 border-slate-300 font-bold text-slate-700 py-2.5 px-3 rounded-xl focus:ring-2 focus:ring-sky-400 focus:outline-none transition">
+                                <option value="">-- Chọn loại góc --</option>
+                                <option value="Góc nhọn">Góc nhọn</option>
+                                <option value="Góc vuông">Góc vuông</option>
+                                <option value="Góc tù">Góc tù</option>
+                                <option value="Góc bẹt">Góc bẹt</option>
+                            </select>
+                        </div>
+                    </div>
+                
+                    <div class="pop-card bg-white border-2 border-slate-200 hover:border-sky-300 rounded-3xl p-4 flex flex-col justify-between shadow-sm">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="bg-sky-100 text-sky-700 text-xs font-black px-2.5 py-1 rounded-full">Câu 2</span>
+                            <span id="feedback-g1-N" class="text-sm font-bold hidden"></span>
+                        </div>
+                        <div class="bg-slate-50 rounded-2xl p-2 border border-slate-100 flex items-center justify-center">
+                            
+                    <svg viewBox="0 0 200 140" class="w-full h-36">
+                        <!-- N vuông góc, NP ngang, NM thẳng đứng -->
+                        <line x1="60" y1="105" x2="165" y2="105" stroke="#0284c7" stroke-width="3" stroke-linecap="round"></line>
+                        <line x1="60" y1="105" x2="60" y2="20" stroke="#0284c7" stroke-width="3" stroke-linecap="round"></line>
+                        <circle cx="60" cy="105" r="4" fill="#0284c7"></circle>
+                        <!-- Ký hiệu góc vuông nhỏ -->
+                        <path d="M 60 92 L 73 92 L 73 105" fill="none" stroke="#94a3b8" stroke-width="1.8"></path>
+                        <text x="44" y="118" font-weight="bold" fill="#1e293b" font-size="14">N</text>
+                        <text x="170" y="112" font-weight="bold" fill="#1e293b" font-size="14">P</text>
+                        <text x="56" y="14" font-weight="bold" fill="#1e293b" font-size="14">M</text>
+                    </svg>
+                
+                        </div>
+                        <div class="mt-3">
+                            <p class="text-sm font-extrabold text-slate-700 mb-2">Góc đỉnh N; cạnh NM, NP</p>
+                            <select id="select-g1-N" onchange="AudioEngine.click()" class="w-full bg-slate-50 border-2 border-slate-300 font-bold text-slate-700 py-2.5 px-3 rounded-xl focus:ring-2 focus:ring-sky-400 focus:outline-none transition">
+                                <option value="">-- Chọn loại góc --</option>
+                                <option value="Góc nhọn">Góc nhọn</option>
+                                <option value="Góc vuông">Góc vuông</option>
+                                <option value="Góc tù">Góc tù</option>
+                                <option value="Góc bẹt">Góc bẹt</option>
+                            </select>
+                        </div>
+                    </div>
+                
+                    <div class="pop-card bg-white border-2 border-slate-200 hover:border-sky-300 rounded-3xl p-4 flex flex-col justify-between shadow-sm">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="bg-sky-100 text-sky-700 text-xs font-black px-2.5 py-1 rounded-full">Câu 3</span>
+                            <span id="feedback-g1-I" class="text-sm font-bold hidden"></span>
+                        </div>
+                        <div class="bg-slate-50 rounded-2xl p-2 border border-slate-100 flex items-center justify-center">
+                            
+                    <svg viewBox="0 0 200 140" class="w-full h-36">
+                        <!-- I ở bên phải, IH hướng sang trái, IK hướng lên góc tù >90deg -->
+                        <line x1="150" y1="105" x2="35" y2="105" stroke="#0284c7" stroke-width="3" stroke-linecap="round"></line>
+                        <line x1="150" y1="105" x2="85" y2="25" stroke="#0284c7" stroke-width="3" stroke-linecap="round"></line>
+                        <circle cx="150" cy="105" r="4" fill="#0284c7"></circle>
+                        <text x="156" y="120" font-weight="bold" fill="#1e293b" font-size="14">I</text>
+                        <text x="20" y="112" font-weight="bold" fill="#1e293b" font-size="14">H</text>
+                        <text x="80" y="18" font-weight="bold" fill="#1e293b" font-size="14">K</text>
+                    </svg>
+                
+                        </div>
+                        <div class="mt-3">
+                            <p class="text-sm font-extrabold text-slate-700 mb-2">Góc đỉnh I; cạnh IH, IK</p>
+                            <select id="select-g1-I" onchange="AudioEngine.click()" class="w-full bg-slate-50 border-2 border-slate-300 font-bold text-slate-700 py-2.5 px-3 rounded-xl focus:ring-2 focus:ring-sky-400 focus:outline-none transition">
+                                <option value="">-- Chọn loại góc --</option>
+                                <option value="Góc nhọn">Góc nhọn</option>
+                                <option value="Góc vuông">Góc vuông</option>
+                                <option value="Góc tù">Góc tù</option>
+                                <option value="Góc bẹt">Góc bẹt</option>
+                            </select>
+                        </div>
+                    </div>
+                
+                    <div class="pop-card bg-white border-2 border-slate-200 hover:border-sky-300 rounded-3xl p-4 flex flex-col justify-between shadow-sm">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="bg-sky-100 text-sky-700 text-xs font-black px-2.5 py-1 rounded-full">Câu 4</span>
+                            <span id="feedback-g1-V" class="text-sm font-bold hidden"></span>
+                        </div>
+                        <div class="bg-slate-50 rounded-2xl p-2 border border-slate-100 flex items-center justify-center">
+                            
+                    <svg viewBox="0 0 200 140" class="w-full h-36">
+                        <!-- V đỉnh giữa, VU sang trái, VX chếch sang phải tù -->
+                        <line x1="110" y1="105" x2="25" y2="105" stroke="#0284c7" stroke-width="3" stroke-linecap="round"></line>
+                        <line x1="110" y1="105" x2="175" y2="35" stroke="#0284c7" stroke-width="3" stroke-linecap="round"></line>
+                        <circle cx="110" cy="105" r="4" fill="#0284c7"></circle>
+                        <text x="106" y="124" font-weight="bold" fill="#1e293b" font-size="14">V</text>
+                        <text x="12" y="112" font-weight="bold" fill="#1e293b" font-size="14">U</text>
+                        <text x="180" y="32" font-weight="bold" fill="#1e293b" font-size="14">X</text>
+                    </svg>
+                
+                        </div>
+                        <div class="mt-3">
+                            <p class="text-sm font-extrabold text-slate-700 mb-2">Góc đỉnh V; cạnh UV, VX</p>
+                            <select id="select-g1-V" onchange="AudioEngine.click()" class="w-full bg-slate-50 border-2 border-slate-300 font-bold text-slate-700 py-2.5 px-3 rounded-xl focus:ring-2 focus:ring-sky-400 focus:outline-none transition">
+                                <option value="">-- Chọn loại góc --</option>
+                                <option value="Góc nhọn">Góc nhọn</option>
+                                <option value="Góc vuông">Góc vuông</option>
+                                <option value="Góc tù">Góc tù</option>
+                                <option value="Góc bẹt">Góc bẹt</option>
+                            </select>
+                        </div>
+                    </div>
+                
+                    <div class="pop-card bg-white border-2 border-slate-200 hover:border-sky-300 rounded-3xl p-4 flex flex-col justify-between shadow-sm">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="bg-sky-100 text-sky-700 text-xs font-black px-2.5 py-1 rounded-full">Câu 5</span>
+                            <span id="feedback-g1-R" class="text-sm font-bold hidden"></span>
+                        </div>
+                        <div class="bg-slate-50 rounded-2xl p-2 border border-slate-100 flex items-center justify-center">
+                            
+                    <svg viewBox="0 0 200 140" class="w-full h-36">
+                        <!-- Đường thẳng ngang đi qua Q - R - S -->
+                        <line x1="25" y1="85" x2="175" y2="85" stroke="#0284c7" stroke-width="3" stroke-linecap="round"></line>
+                        <circle cx="100" cy="85" r="4" fill="#0284c7"></circle>
+                        <text x="96" y="108" font-weight="bold" fill="#1e293b" font-size="14">R</text>
+                        <text x="16" y="92" font-weight="bold" fill="#1e293b" font-size="14">Q</text>
+                        <text x="180" y="92" font-weight="bold" fill="#1e293b" font-size="14">S</text>
+                    </svg>
+                
+                        </div>
+                        <div class="mt-3">
+                            <p class="text-sm font-extrabold text-slate-700 mb-2">Góc đỉnh R; cạnh RQ, RS</p>
+                            <select id="select-g1-R" onchange="AudioEngine.click()" class="w-full bg-slate-50 border-2 border-slate-300 font-bold text-slate-700 py-2.5 px-3 rounded-xl focus:ring-2 focus:ring-sky-400 focus:outline-none transition">
+                                <option value="">-- Chọn loại góc --</option>
+                                <option value="Góc nhọn">Góc nhọn</option>
+                                <option value="Góc vuông">Góc vuông</option>
+                                <option value="Góc tù">Góc tù</option>
+                                <option value="Góc bẹt">Góc bẹt</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 2: BÀI 2 - ĐIỀN DẤU >, <, = -->
+        <section id="game-tab-2" class="tab-content hidden">
+            <div class="bg-white rounded-3xl p-5 md:p-8 shadow-xl border border-emerald-100">
+                <div class="flex flex-wrap items-center justify-between border-b pb-4 mb-6 gap-2">
+                    <div>
+                        <span class="inline-block px-3 py-1 bg-emerald-100 text-emerald-700 rounded-full font-bold text-xs uppercase mb-1">Thử thách 2</span>
+                        <h2 class="text-xl md:text-2xl font-black text-emerald-800">Điền dấu &gt;, &lt;, = vào ô trống thích hợp</h2>
+                        <p class="text-slate-500 text-sm">Đếm số chữ số và so sánh các hàng từ trái sang phải nhé em!</p>
+                    </div>
+                    <button onclick="checkGame2()" class="btn-bounce bg-emerald-500 hover:bg-emerald-600 text-white font-black px-6 py-3 rounded-2xl shadow-lg shadow-emerald-200 border-b-4 border-emerald-700 flex items-center gap-2">
+                        <i class="fa-solid fa-circle-check"></i> Kiểm tra kết quả
+                    </button>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="compareContainer">
+                <div class="pop-card bg-emerald-50/40 border-2 border-emerald-200 rounded-3xl p-4 flex flex-col justify-between">
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="bg-emerald-200 text-emerald-800 text-xs font-black px-2.5 py-0.5 rounded-full uppercase">Câu a)</span>
+                        <span id="feedback-g2-1" class="text-xs font-bold text-slate-500"></span>
+                    </div>
+
+                    <div class="flex items-center justify-between gap-2 my-2 bg-white p-3 rounded-2xl border border-emerald-100 shadow-sm">
+                        <div class="flex-1 text-center font-black text-slate-800 text-base md:text-lg tracking-wide">
+                            52 418
+                        </div>
+                        <div class="w-20">
+                            <select id="select-g2-1" onchange="AudioEngine.click()" class="w-full text-center bg-amber-50 border-2 border-amber-300 font-black text-amber-700 text-lg py-1.5 rounded-xl focus:outline-none focus:ring-2 focus:ring-amber-400">
+                                <option value="">?</option>
+                                <option value="&gt;">&gt;</option>
+                                <option value="&lt;">&lt;</option>
+                                <option value="=">=</option>
+                            </select>
+                        </div>
+                        <div class="flex-1 text-center font-black text-slate-800 text-base md:text-lg tracking-wide">
+                            418 205
+                        </div>
+                    </div>
+                    <p id="explain-g2-1" class="text-xs text-slate-500 italic mt-1 text-center hidden"></p>
+                </div>
+            
+                <div class="pop-card bg-emerald-50/40 border-2 border-emerald-200 rounded-3xl p-4 flex flex-col justify-between">
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="bg-emerald-200 text-emerald-800 text-xs font-black px-2.5 py-0.5 rounded-full uppercase">Câu b)</span>
+                        <span id="feedback-g2-2" class="text-xs font-bold text-slate-500"></span>
+                    </div>
+
+                    <div class="flex items-center justify-between gap-2 my-2 bg-white p-3 rounded-2xl border border-emerald-100 shadow-sm">
+                        <div class="flex-1 text-center font-black text-slate-800 text-base md:text-lg tracking-wide">
+                            7 305 612
+                        </div>
+                        <div class="w-20">
+                            <select id="select-g2-2" onchange="AudioEngine.click()" class="w-full text-center bg-amber-50 border-2 border-amber-300 font-black text-amber-700 text-lg py-1.5 rounded-xl focus:outline-none focus:ring-2 focus:ring-amber-400">
+                                <option value="">?</option>
+                                <option value="&gt;">&gt;</option>
+                                <option value="&lt;">&lt;</option>
+                                <option value="=">=</option>
+                            </select>
+                        </div>
+                        <div class="flex-1 text-center font-black text-slate-800 text-base md:text-lg tracking-wide">
+                            6 998 765
+                        </div>
+                    </div>
+                    <p id="explain-g2-2" class="text-xs text-slate-500 italic mt-1 text-center hidden"></p>
+                </div>
+            
+                <div class="pop-card bg-emerald-50/40 border-2 border-emerald-200 rounded-3xl p-4 flex flex-col justify-between">
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="bg-emerald-200 text-emerald-800 text-xs font-black px-2.5 py-0.5 rounded-full uppercase">Câu c)</span>
+                        <span id="feedback-g2-3" class="text-xs font-bold text-slate-500"></span>
+                    </div>
+
+                    <div class="flex items-center justify-between gap-2 my-2 bg-white p-3 rounded-2xl border border-emerald-100 shadow-sm">
+                        <div class="flex-1 text-center font-black text-slate-800 text-base md:text-lg tracking-wide">
+                            6 603 000
+                        </div>
+                        <div class="w-20">
+                            <select id="select-g2-3" onchange="AudioEngine.click()" class="w-full text-center bg-amber-50 border-2 border-amber-300 font-black text-amber-700 text-lg py-1.5 rounded-xl focus:outline-none focus:ring-2 focus:ring-amber-400">
+                                <option value="">?</option>
+                                <option value="&gt;">&gt;</option>
+                                <option value="&lt;">&lt;</option>
+                                <option value="=">=</option>
+                            </select>
+                        </div>
+                        <div class="flex-1 text-center font-black text-slate-800 text-base md:text-lg tracking-wide">
+                            603 000
+                        </div>
+                    </div>
+                    <p id="explain-g2-3" class="text-xs text-slate-500 italic mt-1 text-center hidden"></p>
+                </div>
+            
+                <div class="pop-card bg-emerald-50/40 border-2 border-emerald-200 rounded-3xl p-4 flex flex-col justify-between">
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="bg-emerald-200 text-emerald-800 text-xs font-black px-2.5 py-0.5 rounded-full uppercase">Câu d)</span>
+                        <span id="feedback-g2-4" class="text-xs font-bold text-slate-500"></span>
+                    </div>
+
+                    <div class="flex items-center justify-between gap-2 my-2 bg-white p-3 rounded-2xl border border-emerald-100 shadow-sm">
+                        <div class="flex-1 text-center font-black text-slate-800 text-base md:text-lg tracking-wide">
+                            81 250 409
+                        </div>
+                        <div class="w-20">
+                            <select id="select-g2-4" onchange="AudioEngine.click()" class="w-full text-center bg-amber-50 border-2 border-amber-300 font-black text-amber-700 text-lg py-1.5 rounded-xl focus:outline-none focus:ring-2 focus:ring-amber-400">
+                                <option value="">?</option>
+                                <option value="&gt;">&gt;</option>
+                                <option value="&lt;">&lt;</option>
+                                <option value="=">=</option>
+                            </select>
+                        </div>
+                        <div class="flex-1 text-center font-black text-slate-800 text-base md:text-lg tracking-wide">
+                            8 999 999
+                        </div>
+                    </div>
+                    <p id="explain-g2-4" class="text-xs text-slate-500 italic mt-1 text-center hidden"></p>
+                </div>
+            
+                <div class="pop-card bg-emerald-50/40 border-2 border-emerald-200 rounded-3xl p-4 flex flex-col justify-between">
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="bg-emerald-200 text-emerald-800 text-xs font-black px-2.5 py-0.5 rounded-full uppercase">Câu e)</span>
+                        <span id="feedback-g2-5" class="text-xs font-bold text-slate-500"></span>
+                    </div>
+
+                    <div class="flex items-center justify-between gap-2 my-2 bg-white p-3 rounded-2xl border border-emerald-100 shadow-sm">
+                        <div class="flex-1 text-center font-black text-slate-800 text-base md:text-lg tracking-wide">
+                            1 000 000
+                        </div>
+                        <div class="w-20">
+                            <select id="select-g2-5" onchange="AudioEngine.click()" class="w-full text-center bg-amber-50 border-2 border-amber-300 font-black text-amber-700 text-lg py-1.5 rounded-xl focus:outline-none focus:ring-2 focus:ring-amber-400">
+                                <option value="">?</option>
+                                <option value="&gt;">&gt;</option>
+                                <option value="&lt;">&lt;</option>
+                                <option value="=">=</option>
+                            </select>
+                        </div>
+                        <div class="flex-1 text-center font-black text-slate-800 text-base md:text-lg tracking-wide">
+                            999 999
+                        </div>
+                    </div>
+                    <p id="explain-g2-5" class="text-xs text-slate-500 italic mt-1 text-center hidden"></p>
+                </div>
+            
+                <div class="pop-card bg-emerald-50/40 border-2 border-emerald-200 rounded-3xl p-4 flex flex-col justify-between">
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="bg-emerald-200 text-emerald-800 text-xs font-black px-2.5 py-0.5 rounded-full uppercase">Câu g)</span>
+                        <span id="feedback-g2-6" class="text-xs font-bold text-slate-500"></span>
+                    </div>
+
+                    <div class="flex items-center justify-between gap-2 my-2 bg-white p-3 rounded-2xl border border-emerald-100 shadow-sm">
+                        <div class="flex-1 text-center font-black text-slate-800 text-base md:text-lg tracking-wide">
+                            9 870 321
+                        </div>
+                        <div class="w-20">
+                            <select id="select-g2-6" onchange="AudioEngine.click()" class="w-full text-center bg-amber-50 border-2 border-amber-300 font-black text-amber-700 text-lg py-1.5 rounded-xl focus:outline-none focus:ring-2 focus:ring-amber-400">
+                                <option value="">?</option>
+                                <option value="&gt;">&gt;</option>
+                                <option value="&lt;">&lt;</option>
+                                <option value="=">=</option>
+                            </select>
+                        </div>
+                        <div class="flex-1 text-center font-black text-slate-800 text-base md:text-lg tracking-wide">
+                            10 002 145
+                        </div>
+                    </div>
+                    <p id="explain-g2-6" class="text-xs text-slate-500 italic mt-1 text-center hidden"></p>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- TAB 3: BÀI 3 - TRẮC NGHIỆM LÀM TRÒN SỐ -->
+        <section id="game-tab-3" class="tab-content hidden">
+            <div class="bg-white rounded-3xl p-5 md:p-8 shadow-xl border border-purple-100">
+                <div class="flex flex-wrap items-center justify-between border-b pb-4 mb-6 gap-2">
+                    <div>
+                        <span class="inline-block px-3 py-1 bg-purple-100 text-purple-700 rounded-full font-bold text-xs uppercase mb-1">Thử thách 3</span>
+                        <h2 class="text-xl md:text-2xl font-black text-purple-800">Bắn phá mục tiêu: Làm tròn số</h2>
+                        <p class="text-slate-500 text-sm">Chọn 1 đáp án chính xác trong 4 phương án cho từng câu hỏi.</p>
+                    </div>
+                    <div class="bg-purple-50 text-purple-700 font-extrabold px-4 py-2 rounded-2xl border border-purple-200 text-sm">
+                        Câu: <span id="quizIndex">1</span>/4
+                    </div>
+                </div>
+
+                <!-- Quiz Card Interactive -->
+                <div id="quizContainer" class="max-w-2xl mx-auto">
+                <div class="pop-card bg-purple-50/50 border-2 border-purple-200 rounded-3xl p-6">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-12 h-12 rounded-2xl bg-purple-600 text-white flex items-center justify-center font-black text-xl shadow-md">
+                            A
+                        </div>
+                        <div>
+                            <span class="text-xs font-black uppercase text-purple-700 bg-purple-200 px-3 py-1 rounded-full">Làm tròn số</span>
+                            <h3 class="text-lg md:text-xl font-black text-slate-800 mt-1">Làm tròn số 513 217 000 đến hàng trăm nghìn được số nào?</h3>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-2xl p-4 mb-6 border border-purple-100 flex flex-wrap items-center justify-around gap-2 text-center">
+                        <div>
+                            <span class="text-xs text-slate-400 font-bold block">Số cần làm tròn</span>
+                            <span class="text-xl font-black text-purple-700">513 217 000</span>
+                        </div>
+                        <div class="h-8 w-px bg-slate-200 hidden sm:block"></div>
+                        <div>
+                            <span class="text-xs text-slate-400 font-bold block">Đến hàng</span>
+                            <span class="text-xl font-black text-amber-600">Hàng trăm nghìn</span>
+                        </div>
+                    </div>
+
+                    <!-- 4 Phương án lựa chọn -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
+                        
+                                <button onclick="chooseQuizOption(0)" class="bg-white border-2 border-slate-200 text-slate-700 hover:border-purple-400 hover:bg-purple-50/50 btn-bounce p-4 rounded-2xl flex items-center font-bold text-base transition text-left">
+                                    <span class="w-7 h-7 rounded-xl bg-slate-100 font-bold flex items-center justify-center text-sm mr-2">A</span>
+                                    <span class="tracking-wide">513 000 000</span>
+                                </button>
+                            
+                                <button onclick="chooseQuizOption(1)" class="bg-white border-2 border-slate-200 text-slate-700 hover:border-purple-400 hover:bg-purple-50/50 btn-bounce p-4 rounded-2xl flex items-center font-bold text-base transition text-left">
+                                    <span class="w-7 h-7 rounded-xl bg-slate-100 font-bold flex items-center justify-center text-sm mr-2">B</span>
+                                    <span class="tracking-wide">513 200 000</span>
+                                </button>
+                            
+                                <button onclick="chooseQuizOption(2)" class="bg-white border-2 border-slate-200 text-slate-700 hover:border-purple-400 hover:bg-purple-50/50 btn-bounce p-4 rounded-2xl flex items-center font-bold text-base transition text-left">
+                                    <span class="w-7 h-7 rounded-xl bg-slate-100 font-bold flex items-center justify-center text-sm mr-2">C</span>
+                                    <span class="tracking-wide">513 300 000</span>
+                                </button>
+                            
+                                <button onclick="chooseQuizOption(3)" class="bg-white border-2 border-slate-200 text-slate-700 hover:border-purple-400 hover:bg-purple-50/50 btn-bounce p-4 rounded-2xl flex items-center font-bold text-base transition text-left">
+                                    <span class="w-7 h-7 rounded-xl bg-slate-100 font-bold flex items-center justify-center text-sm mr-2">D</span>
+                                    <span class="tracking-wide">514 000 000</span>
+                                </button>
+                            
+                    </div>
+
+                    
+
+                    <!-- Pagination and Navigation -->
+                    <div class="flex items-center justify-between pt-2 border-t border-purple-100">
+                        <button onclick="prevQuiz()" disabled="" class="opacity-40 cursor-not-allowed">
+                            <i class="fa-solid fa-arrow-left"></i> Câu trước
+                        </button>
+
+                        <div class="flex gap-1.5">
+                            
+                                <span class="w-3 h-3 rounded-full bg-purple-600 scale-125 transition-all"></span>
+                            
+                                <span class="w-3 h-3 rounded-full bg-slate-300 transition-all"></span>
+                            
+                                <span class="w-3 h-3 rounded-full bg-slate-300 transition-all"></span>
+                            
+                                <span class="w-3 h-3 rounded-full bg-slate-300 transition-all"></span>
+                            
+                        </div>
+
+                        <button onclick="nextQuiz()" class="btn-bounce">
+                            Câu sau <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="msgModal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+        <div class="bg-white rounded-3xl p-6 md:p-8 max-w-sm w-full text-center shadow-2xl border-4 transform transition-all" id="modalCard">
+            <div id="modalIcon" class="text-6xl mb-4">🎉</div>
+            <h3 id="modalTitle" class="text-2xl font-black text-slate-800 mb-2">Tuyệt vời!</h3>
+            <p id="modalMsg" class="text-slate-600 font-semibold mb-6">Em đã hoàn thành xuất sắc thử thách này!</p>
+            <button onclick="closeModal()" class="w-full py-3 bg-amber-500 hover:bg-amber-600 text-white font-black rounded-2xl shadow-lg border-b-4 border-amber-700 transition">
+                Tiếp tục học tập
+            </button>
+        </div>
+    </div>
+
+    <script>
+        /* Modern Web Audio Synthesizer (No external asset dependency needed) */
+        const AudioEngine = {
+            ctx: null,
+            muted: false,
+
+            init() {
+                if (!this.ctx) {
+                    const AudioContext = window.AudioContext || window.webkitAudioContext;
+                    this.ctx = new AudioContext();
+                }
+                if (this.ctx && this.ctx.state === 'suspended') {
+                    this.ctx.resume();
+                }
+            },
+
+            playTone(freq, type = 'sine', duration = 0.2, gainValue = 0.15) {
+                if (this.muted) return;
+                try {
+                    this.init();
+                    const osc = this.ctx.createOscillator();
+                    const gain = this.ctx.createGain();
+                    osc.type = type;
+                    osc.frequency.setValueAtTime(freq, this.ctx.currentTime);
+
+                    gain.gain.setValueAtTime(gainValue, this.ctx.currentTime);
+                    gain.gain.exponentialRampToValueAtTime(0.0001, this.ctx.currentTime + duration);
+
+                    osc.connect(gain);
+                    gain.connect(this.ctx.destination);
+                    osc.start();
+                    osc.stop(this.ctx.currentTime + duration);
+                } catch(e) {
+                    console.log('Audio error:', e);
+                }
+            },
+
+            correct() {
+                this.playTone(523.25, 'triangle', 0.1, 0.2); // C5
+                setTimeout(() => this.playTone(659.25, 'triangle', 0.12, 0.2), 100); // E5
+                setTimeout(() => this.playTone(783.99, 'triangle', 0.25, 0.2), 220); // G5
+            },
+
+            wrong() {
+                this.playTone(280, 'sawtooth', 0.18, 0.25);
+                setTimeout(() => this.playTone(220, 'sawtooth', 0.3, 0.25), 150);
+            },
+
+            click() {
+                this.playTone(440, 'sine', 0.04, 0.1);
+            },
+
+            fanfare() {
+                const notes = [523.25, 659.25, 783.99, 1046.50];
+                notes.forEach((freq, idx) => {
+                    setTimeout(() => this.playTone(freq, 'triangle', 0.2, 0.25), idx * 110);
+                });
+            }
+        };
+
+        function toggleMute() {
+            AudioEngine.muted = !AudioEngine.muted;
+            const icon = document.getElementById('soundIcon');
+            if (AudioEngine.muted) {
+                icon.className = 'fa-solid fa-volume-xmark text-lg text-rose-500';
+            } else {
+                icon.className = 'fa-solid fa-volume-high text-lg text-slate-600';
+                AudioEngine.click();
+            }
+        }
+
+        /* Modal Dialog Controller */
+        function showNotification(title, msg, type = 'success') {
+            const modal = document.getElementById('msgModal');
+            const icon = document.getElementById('modalIcon');
+            const t = document.getElementById('modalTitle');
+            const m = document.getElementById('modalMsg');
+            const card = document.getElementById('modalCard');
+
+            t.textContent = title;
+            m.textContent = msg;
+
+            if (type === 'success') {
+                icon.textContent = '🌟';
+                card.className = "bg-white rounded-3xl p-6 md:p-8 max-w-sm w-full text-center shadow-2xl border-4 border-emerald-400";
+                AudioEngine.fanfare();
+                confetti({
+                    particleCount: 70,
+                    spread: 60,
+                    origin: { y: 0.6 }
+                });
+            } else {
+                icon.textContent = '💡';
+                card.className = "bg-white rounded-3xl p-6 md:p-8 max-w-sm w-full text-center shadow-2xl border-4 border-amber-400";
+                AudioEngine.wrong();
+            }
+            modal.classList.remove('hidden');
+        }
+
+        function closeModal() {
+            AudioEngine.click();
+            document.getElementById('msgModal').classList.add('hidden');
+        }
+
+        let userScore = 0;
+        function addScore(points) {
+            userScore += points;
+            document.getElementById('scoreDisplay').textContent = userScore;
+        }
+
+        // Tab Switching
+        function switchTab(tabId) {
+            AudioEngine.click();
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+            document.getElementById(`game-tab-${tabId}`).classList.remove('hidden');
+
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.className = "tab-btn px-4 md:px-6 py-2.5 rounded-2xl font-black text-sm md:text-base border-b-4 border-slate-300 bg-white text-slate-600 shadow-sm hover:bg-slate-100 flex items-center gap-2";
+            });
+
+            const activeBtn = document.getElementById(`tab-btn-${tabId}`);
+            if (tabId === 1) {
+                activeBtn.className = "tab-btn px-4 md:px-6 py-2.5 rounded-2xl font-black text-sm md:text-base border-b-4 border-sky-600 bg-sky-500 text-white shadow-md flex items-center gap-2";
+            } else if (tabId === 2) {
+                activeBtn.className = "tab-btn px-4 md:px-6 py-2.5 rounded-2xl font-black text-sm md:text-base border-b-4 border-emerald-600 bg-emerald-500 text-white shadow-md flex items-center gap-2";
+            } else {
+                activeBtn.className = "tab-btn px-4 md:px-6 py-2.5 rounded-2xl font-black text-sm md:text-base border-b-4 border-purple-600 bg-purple-500 text-white shadow-md flex items-center gap-2";
+            }
+        }
+    </script>
+
+    <script>
+        /* Exact definitions from the provided document */
+        const anglesData = [
+            {
+                id: 'B',
+                title: 'Góc đỉnh B; cạnh BA, BC',
+                type: 'Góc nhọn',
+                isExample: true,
+                svg: `
+                    <svg viewBox="0 0 200 140" class="w-full h-36">
+                        <!-- Cạnh BC ngang, BA nghiêng nhọn ~45 deg -->
+                        <line x1="40" y1="105" x2="170" y2="105" stroke="#0284c7" stroke-width="3" stroke-linecap="round"/>
+                        <line x1="40" y1="105" x2="130" y2="25" stroke="#0284c7" stroke-width="3" stroke-linecap="round"/>
+                        <circle cx="40" cy="105" r="4" fill="#0284c7"/>
+                        <text x="25" y="120" font-weight="bold" fill="#1e293b" font-size="14">B</text>
+                        <text x="175" y="112" font-weight="bold" fill="#1e293b" font-size="14">C</text>
+                        <text x="135" y="22" font-weight="bold" fill="#1e293b" font-size="14">A</text>
+                    </svg>
+                `
+            },
+            {
+                id: 'E',
+                title: 'Góc đỉnh E; cạnh ED, EG',
+                type: 'Góc tù',
+                isExample: false,
+                svg: `
+                    <svg viewBox="0 0 200 140" class="w-full h-36">
+                        <!-- E đỉnh, EG sang phải, ED sang trái trên tù ~135 deg -->
+                        <line x1="100" y1="105" x2="185" y2="105" stroke="#0284c7" stroke-width="3" stroke-linecap="round"/>
+                        <line x1="100" y1="105" x2="35" y2="35" stroke="#0284c7" stroke-width="3" stroke-linecap="round"/>
+                        <circle cx="100" cy="105" r="4" fill="#0284c7"/>
+                        <text x="96" y="124" font-weight="bold" fill="#1e293b" font-size="14">E</text>
+                        <text x="190" y="112" font-weight="bold" fill="#1e293b" font-size="14">G</text>
+                        <text x="22" y="32" font-weight="bold" fill="#1e293b" font-size="14">D</text>
+                    </svg>
+                `
+            },
+            {
+                id: 'N',
+                title: 'Góc đỉnh N; cạnh NM, NP',
+                type: 'Góc vuông',
+                isExample: false,
+                svg: `
+                    <svg viewBox="0 0 200 140" class="w-full h-36">
+                        <!-- N vuông góc, NP ngang, NM thẳng đứng -->
+                        <line x1="60" y1="105" x2="165" y2="105" stroke="#0284c7" stroke-width="3" stroke-linecap="round"/>
+                        <line x1="60" y1="105" x2="60" y2="20" stroke="#0284c7" stroke-width="3" stroke-linecap="round"/>
+                        <circle cx="60" cy="105" r="4" fill="#0284c7"/>
+                        <!-- Ký hiệu góc vuông nhỏ -->
+                        <path d="M 60 92 L 73 92 L 73 105" fill="none" stroke="#94a3b8" stroke-width="1.8"/>
+                        <text x="44" y="118" font-weight="bold" fill="#1e293b" font-size="14">N</text>
+                        <text x="170" y="112" font-weight="bold" fill="#1e293b" font-size="14">P</text>
+                        <text x="56" y="14" font-weight="bold" fill="#1e293b" font-size="14">M</text>
+                    </svg>
+                `
+            },
+            {
+                id: 'I',
+                title: 'Góc đỉnh I; cạnh IH, IK',
+                type: 'Góc tù',
+                isExample: false,
+                svg: `
+                    <svg viewBox="0 0 200 140" class="w-full h-36">
+                        <!-- I ở bên phải, IH hướng sang trái, IK hướng lên góc tù >90deg -->
+                        <line x1="150" y1="105" x2="35" y2="105" stroke="#0284c7" stroke-width="3" stroke-linecap="round"/>
+                        <line x1="150" y1="105" x2="85" y2="25" stroke="#0284c7" stroke-width="3" stroke-linecap="round"/>
+                        <circle cx="150" cy="105" r="4" fill="#0284c7"/>
+                        <text x="156" y="120" font-weight="bold" fill="#1e293b" font-size="14">I</text>
+                        <text x="20" y="112" font-weight="bold" fill="#1e293b" font-size="14">H</text>
+                        <text x="80" y="18" font-weight="bold" fill="#1e293b" font-size="14">K</text>
+                    </svg>
+                `
+            },
+            {
+                id: 'V',
+                title: 'Góc đỉnh V; cạnh UV, VX',
+                type: 'Góc tù',
+                isExample: false,
+                svg: `
+                    <svg viewBox="0 0 200 140" class="w-full h-36">
+                        <!-- V đỉnh giữa, VU sang trái, VX chếch sang phải tù -->
+                        <line x1="110" y1="105" x2="25" y2="105" stroke="#0284c7" stroke-width="3" stroke-linecap="round"/>
+                        <line x1="110" y1="105" x2="175" y2="35" stroke="#0284c7" stroke-width="3" stroke-linecap="round"/>
+                        <circle cx="110" cy="105" r="4" fill="#0284c7"/>
+                        <text x="106" y="124" font-weight="bold" fill="#1e293b" font-size="14">V</text>
+                        <text x="12" y="112" font-weight="bold" fill="#1e293b" font-size="14">U</text>
+                        <text x="180" y="32" font-weight="bold" fill="#1e293b" font-size="14">X</text>
+                    </svg>
+                `
+            },
+            {
+                id: 'R',
+                title: 'Góc đỉnh R; cạnh RQ, RS',
+                type: 'Góc bẹt',
+                isExample: false,
+                svg: `
+                    <svg viewBox="0 0 200 140" class="w-full h-36">
+                        <!-- Đường thẳng ngang đi qua Q - R - S -->
+                        <line x1="25" y1="85" x2="175" y2="85" stroke="#0284c7" stroke-width="3" stroke-linecap="round"/>
+                        <circle cx="100" cy="85" r="4" fill="#0284c7"/>
+                        <text x="96" y="108" font-weight="bold" fill="#1e293b" font-size="14">R</text>
+                        <text x="16" y="92" font-weight="bold" fill="#1e293b" font-size="14">Q</text>
+                        <text x="180" y="92" font-weight="bold" fill="#1e293b" font-size="14">S</text>
+                    </svg>
+                `
+            }
+        ];
+
+        function renderGame1() {
+            const container = document.getElementById('anglesContainer');
+            container.innerHTML = anglesData.map((item, index) => {
+                if (item.isExample) {
+                    return `
+                        <div class="pop-card bg-amber-50/70 border-2 border-amber-300 rounded-3xl p-4 flex flex-col justify-between">
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="bg-amber-200 text-amber-800 text-xs font-black px-2.5 py-1 rounded-full uppercase">Mẫu có sẵn</span>
+                                <span class="text-xs text-amber-700 font-bold">Hình mẫu</span>
+                            </div>
+                            <div class="bg-white rounded-2xl p-2 border border-amber-100 flex items-center justify-center">
+                                ${item.svg}
+                            </div>
+                            <div class="mt-3">
+                                <p class="text-sm font-extrabold text-slate-700 mb-1">${item.title}</p>
+                                <div class="bg-sky-100 border border-sky-300 text-sky-700 font-black text-center py-2 rounded-xl text-base">
+                                    Góc nhọn
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }
+
+                return `
+                    <div class="pop-card bg-white border-2 border-slate-200 hover:border-sky-300 rounded-3xl p-4 flex flex-col justify-between shadow-sm">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="bg-sky-100 text-sky-700 text-xs font-black px-2.5 py-1 rounded-full">Câu ${index}</span>
+                            <span id="feedback-g1-${item.id}" class="text-sm font-bold hidden"></span>
+                        </div>
+                        <div class="bg-slate-50 rounded-2xl p-2 border border-slate-100 flex items-center justify-center">
+                            ${item.svg}
+                        </div>
+                        <div class="mt-3">
+                            <p class="text-sm font-extrabold text-slate-700 mb-2">${item.title}</p>
+                            <select id="select-g1-${item.id}" onchange="AudioEngine.click()" class="w-full bg-slate-50 border-2 border-slate-300 font-bold text-slate-700 py-2.5 px-3 rounded-xl focus:ring-2 focus:ring-sky-400 focus:outline-none transition">
+                                <option value="">-- Chọn loại góc --</option>
+                                <option value="Góc nhọn">Góc nhọn</option>
+                                <option value="Góc vuông">Góc vuông</option>
+                                <option value="Góc tù">Góc tù</option>
+                                <option value="Góc bẹt">Góc bẹt</option>
+                            </select>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function checkGame1() {
+            let allCorrect = true;
+            let answeredCount = 0;
+            let correctCount = 0;
+
+            anglesData.forEach(item => {
+                if (item.isExample) return;
+                const select = document.getElementById(`select-g1-${item.id}`);
+                const feedback = document.getElementById(`feedback-g1-${item.id}`);
+                const val = select.value;
+
+                if (!val) {
+                    allCorrect = false;
+                    feedback.className = "text-xs font-bold text-amber-500 block";
+                    feedback.textContent = "Chưa chọn";
+                    return;
+                }
+                answeredCount++;
+
+                if (val === item.type) {
+                    correctCount++;
+                    select.className = "w-full bg-emerald-50 border-2 border-emerald-500 font-bold text-emerald-800 py-2.5 px-3 rounded-xl";
+                    feedback.className = "text-xs font-black text-emerald-600 block";
+                    feedback.innerHTML = '<i class="fa-solid fa-check"></i> Đúng';
+                } else {
+                    allCorrect = false;
+                    select.className = "w-full bg-rose-50 border-2 border-rose-400 font-bold text-rose-700 py-2.5 px-3 rounded-xl";
+                    feedback.className = "text-xs font-black text-rose-500 block";
+                    feedback.innerHTML = `<i class="fa-solid fa-xmark"></i> Sai (Đ/A: ${item.type})`;
+                }
+            });
+
+            if (answeredCount < 5) {
+                showNotification("Chưa hoàn thành!", "Em hãy chọn câu trả lời cho đủ 5 góc nhé!", "warning");
+                return;
+            }
+
+            if (allCorrect) {
+                addScore(50);
+                showNotification("Xuất sắc 10/10!", "Em đã phân biệt chính xác tất cả các góc hình học!", "success");
+            } else {
+                showNotification("Cần cố gắng thêm!", `Em làm đúng ${correctCount}/5 góc. Hãy xem lại các góc sai có màu đỏ nhé!`, "warning");
+            }
+        }
+    </script>
+
+    <script>
+        const compareData = [
+            { id: 1, label: 'a', num1: '52 418', num2: '418 205', ans: '<', reason: '52 418 (5 chữ số) < 418 205 (6 chữ số)' },
+            { id: 2, label: 'b', num1: '7 305 612', num2: '6 998 765', ans: '>', reason: 'Hàng triệu: 7 > 6' },
+            { id: 3, label: 'c', num1: '6 603 000', num2: '603 000', ans: '>', reason: '6 603 000 (7 chữ số) > 603 000 (6 chữ số)' },
+            { id: 4, label: 'd', num1: '81 250 409', num2: '8 999 999', ans: '>', reason: '81 250 409 (8 chữ số) > 8 999 999 (7 chữ số)' },
+            { id: 5, label: 'e', num1: '1 000 000', num2: '999 999', ans: '>', reason: '1 000 000 (7 chữ số) > 999 999 (6 chữ số)' },
+            { id: 6, label: 'g', num1: '9 870 321', num2: '10 002 145', ans: '<', reason: '9 870 321 (7 chữ số) < 10 002 145 (8 chữ số)' }
+        ];
+
+        function renderGame2() {
+            const container = document.getElementById('compareContainer');
+            container.innerHTML = compareData.map(item => `
+                <div class="pop-card bg-emerald-50/40 border-2 border-emerald-200 rounded-3xl p-4 flex flex-col justify-between">
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="bg-emerald-200 text-emerald-800 text-xs font-black px-2.5 py-0.5 rounded-full uppercase">Câu ${item.label})</span>
+                        <span id="feedback-g2-${item.id}" class="text-xs font-bold text-slate-500"></span>
+                    </div>
+
+                    <div class="flex items-center justify-between gap-2 my-2 bg-white p-3 rounded-2xl border border-emerald-100 shadow-sm">
+                        <div class="flex-1 text-center font-black text-slate-800 text-base md:text-lg tracking-wide">
+                            ${item.num1}
+                        </div>
+                        <div class="w-20">
+                            <select id="select-g2-${item.id}" onchange="AudioEngine.click()" class="w-full text-center bg-amber-50 border-2 border-amber-300 font-black text-amber-700 text-lg py-1.5 rounded-xl focus:outline-none focus:ring-2 focus:ring-amber-400">
+                                <option value="">?</option>
+                                <option value=">">&gt;</option>
+                                <option value="<">&lt;</option>
+                                <option value="=">=</option>
+                            </select>
+                        </div>
+                        <div class="flex-1 text-center font-black text-slate-800 text-base md:text-lg tracking-wide">
+                            ${item.num2}
+                        </div>
+                    </div>
+                    <p id="explain-g2-${item.id}" class="text-xs text-slate-500 italic mt-1 text-center hidden"></p>
+                </div>
+            `).join('');
+        }
+
+        function checkGame2() {
+            let correct = 0;
+            let answered = 0;
+
+            compareData.forEach(item => {
+                const select = document.getElementById(`select-g2-${item.id}`);
+                const feedback = document.getElementById(`feedback-g2-${item.id}`);
+                const explain = document.getElementById(`explain-g2-${item.id}`);
+                const val = select.value;
+
+                if (val) answered++;
+
+                if (val === item.ans) {
+                    correct++;
+                    select.className = "w-full text-center bg-emerald-100 border-2 border-emerald-500 font-black text-emerald-800 text-lg py-1.5 rounded-xl";
+                    feedback.innerHTML = '<span class="text-emerald-600 font-bold"><i class="fa-solid fa-check"></i> Đúng</span>';
+                    explain.textContent = `Giải thích: ${item.reason}`;
+                    explain.classList.remove('hidden');
+                } else if (val) {
+                    select.className = "w-full text-center bg-rose-100 border-2 border-rose-400 font-black text-rose-700 text-lg py-1.5 rounded-xl";
+                    feedback.innerHTML = `<span class="text-rose-500 font-bold"><i class="fa-solid fa-xmark"></i> Đ/A: ${item.ans}</span>`;
+                    explain.textContent = `Giải thích: ${item.reason}`;
+                    explain.classList.remove('hidden');
+                }
+            });
+
+            if (answered < 6) {
+                showNotification("Chưa điền xong!", "Em hãy chọn dấu cho tất cả 6 phép so sánh nhé!", "warning");
+                return;
+            }
+
+            if (correct === 6) {
+                addScore(60);
+                showNotification("Quá tài năng!", "Em đã so sánh chính xác 6/6 cặp số tự nhiên!", "success");
+            } else {
+                showNotification("Kết quả so sánh", `Em trả lời đúng ${correct}/6 phép so sánh. Hãy xem giải thích bên dưới nhé!`, "warning");
+            }
+        }
+    </script>
+
+    <script>
+        const quizData = [
+            {
+                id: 'a',
+                question: "Làm tròn số 513 217 000 đến hàng trăm nghìn được số nào?",
+                targetNum: "513 217 000",
+                roundPlace: "Hàng trăm nghìn",
+                options: [
+                    "513 000 000",
+                    "513 200 000",
+                    "513 300 000",
+                    "514 000 000"
+                ],
+                correctIndex: 1,
+                reason: "Chữ số hàng chục nghìn là 1 (1 < 5) nên ta giữ nguyên chữ số hàng trăm nghìn (2) và thay các chữ số sau bằng số 0: 513 200 000."
+            },
+            {
+                id: 'b',
+                question: "Làm tròn số 5 783 742 đến hàng nghìn được số nào?",
+                targetNum: "5 783 742",
+                roundPlace: "Hàng nghìn",
+                options: [
+                    "5 783 000",
+                    "5 780 000",
+                    "5 784 000",
+                    "5 790 000"
+                ],
+                correctIndex: 2,
+                reason: "Chữ số ngay sau hàng nghìn là chữ số hàng trăm (7 ≥ 5), do đó cộng thêm 1 vào hàng nghìn (3 + 1 = 4): 5 784 000."
+            },
+            {
+                id: 'c',
+                question: "Làm tròn số 6 250 000 đến hàng trăm nghìn được số nào?",
+                targetNum: "6 250 000",
+                roundPlace: "Hàng trăm nghìn",
+                options: [
+                    "6 200 000",
+                    "6 300 000",
+                    "6 260 000",
+                    "7 000 000"
+                ],
+                correctIndex: 1,
+                reason: "Chữ số hàng chục nghìn là 5 (5 ≥ 5), do đó ta làm tròn lên bằng cách cộng 1 vào hàng trăm nghìn (2 + 1 = 3): 6 300 000."
+            },
+            {
+                id: 'd',
+                question: "Làm tròn số 64 741 805 đến hàng chục nghìn được số nào?",
+                targetNum: "64 741 805",
+                roundPlace: "Hàng chục nghìn",
+                options: [
+                    "64 700 000",
+                    "64 750 000",
+                    "64 740 000",
+                    "65 000 000"
+                ],
+                correctIndex: 2,
+                reason: "Chữ số hàng nghìn là 1 (1 < 5), ta giữ nguyên chữ số hàng chục nghìn (4) và đổi các chữ số sau thành 0: 64 740 000."
+            }
+        ];
+
+        let currentQuizIndex = 0;
+        let quizAnswers = new Array(quizData.length).fill(null);
+
+        function renderQuiz() {
+            const container = document.getElementById('quizContainer');
+            const q = quizData[currentQuizIndex];
+            document.getElementById('quizIndex').textContent = currentQuizIndex + 1;
+
+            const selected = quizAnswers[currentQuizIndex];
+
+            container.innerHTML = `
+                <div class="pop-card bg-purple-50/50 border-2 border-purple-200 rounded-3xl p-6">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-12 h-12 rounded-2xl bg-purple-600 text-white flex items-center justify-center font-black text-xl shadow-md">
+                            ${q.id.toUpperCase()}
+                        </div>
+                        <div>
+                            <span class="text-xs font-black uppercase text-purple-700 bg-purple-200 px-3 py-1 rounded-full">Làm tròn số</span>
+                            <h3 class="text-lg md:text-xl font-black text-slate-800 mt-1">${q.question}</h3>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-2xl p-4 mb-6 border border-purple-100 flex flex-wrap items-center justify-around gap-2 text-center">
+                        <div>
+                            <span class="text-xs text-slate-400 font-bold block">Số cần làm tròn</span>
+                            <span class="text-xl font-black text-purple-700">${q.targetNum}</span>
+                        </div>
+                        <div class="h-8 w-px bg-slate-200 hidden sm:block"></div>
+                        <div>
+                            <span class="text-xs text-slate-400 font-bold block">Đến hàng</span>
+                            <span class="text-xl font-black text-amber-600">${q.roundPlace}</span>
+                        </div>
+                    </div>
+
+                    <!-- 4 Phương án lựa chọn -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
+                        ${q.options.map((opt, optIdx) => {
+                            let btnStyle = "bg-white border-2 border-slate-200 text-slate-700 hover:border-purple-400 hover:bg-purple-50/50";
+                            let icon = `<span class="w-7 h-7 rounded-xl bg-slate-100 font-bold flex items-center justify-center text-sm mr-2">${String.fromCharCode(65 + optIdx)}</span>`;
+
+                            if (selected !== null) {
+                                if (optIdx === q.correctIndex) {
+                                    btnStyle = "bg-emerald-50 border-2 border-emerald-500 text-emerald-800 font-black shadow-md";
+                                    icon = `<span class="w-7 h-7 rounded-xl bg-emerald-500 text-white font-bold flex items-center justify-center text-sm mr-2"><i class="fa-solid fa-check"></i></span>`;
+                                } else if (selected === optIdx) {
+                                    btnStyle = "bg-rose-50 border-2 border-rose-400 text-rose-700 font-bold";
+                                    icon = `<span class="w-7 h-7 rounded-xl bg-rose-500 text-white font-bold flex items-center justify-center text-sm mr-2"><i class="fa-solid fa-xmark"></i></span>`;
+                                }
+                            }
+
+                            return `
+                                <button onclick="chooseQuizOption(${optIdx})" ${selected !== null ? 'disabled' : ''} class="${btnStyle} btn-bounce p-4 rounded-2xl flex items-center font-bold text-base transition text-left">
+                                    ${icon}
+                                    <span class="tracking-wide">${opt}</span>
+                                </button>
+                            `;
+                        }).join('')}
+                    </div>
+
+                    ${selected !== null ? `
+                        <div class="bg-white border border-purple-200 p-4 rounded-2xl mb-4 text-sm text-slate-700">
+                            <span class="font-bold text-purple-700 block mb-1">
+                                <i class="fa-solid fa-lightbulb text-amber-500 mr-1"></i> Lời giải chi tiết:
+                            </span>
+                            ${q.reason}
+                        </div>
+                    ` : ''}
+
+                    <!-- Pagination and Navigation -->
+                    <div class="flex items-center justify-between pt-2 border-t border-purple-100">
+                        <button onclick="prevQuiz()" ${currentQuizIndex === 0 ? 'disabled class="opacity-40 cursor-not-allowed"' : 'class="btn-bounce"'} class="px-4 py-2 bg-slate-100 font-bold text-slate-600 rounded-xl hover:bg-slate-200 flex items-center gap-1 text-sm">
+                            <i class="fa-solid fa-arrow-left"></i> Câu trước
+                        </button>
+
+                        <div class="flex gap-1.5">
+                            ${quizData.map((_, i) => `
+                                <span class="w-3 h-3 rounded-full ${i === currentQuizIndex ? 'bg-purple-600 scale-125' : (quizAnswers[i] !== null ? 'bg-emerald-400' : 'bg-slate-300')} transition-all"></span>
+                            `).join('')}
+                        </div>
+
+                        <button onclick="nextQuiz()" ${currentQuizIndex === quizData.length - 1 ? 'disabled class="opacity-40 cursor-not-allowed"' : 'class="btn-bounce"'} class="px-4 py-2 bg-purple-600 font-bold text-white rounded-xl hover:bg-purple-700 flex items-center gap-1 text-sm">
+                            Câu sau <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            `;
+        }
+
+        function chooseQuizOption(idx) {
+            if (quizAnswers[currentQuizIndex] !== null) return;
+            quizAnswers[currentQuizIndex] = idx;
+            const q = quizData[currentQuizIndex];
+
+            if (idx === q.correctIndex) {
+                AudioEngine.correct();
+                addScore(25);
+            } else {
+                AudioEngine.wrong();
+            }
+
+            renderQuiz();
+
+            // Nếu trả lời xong hết 4 câu
+            if (quizAnswers.every(ans => ans !== null)) {
+                setTimeout(() => {
+                    const totalCorrect = quizAnswers.filter((a, i) => a === quizData[i].correctIndex).length;
+                    showNotification("Hoàn thành trắc nghiệm!", `Em đã trả lời đúng ${totalCorrect}/4 câu hỏi làm tròn số!`, totalCorrect >= 3 ? 'success' : 'warning');
+                }, 800);
+            }
+        }
+
+        function prevQuiz() {
+            if (currentQuizIndex > 0) {
+                AudioEngine.click();
+                currentQuizIndex--;
+                renderQuiz();
+            }
+        }
+
+        function nextQuiz() {
+            if (currentQuizIndex < quizData.length - 1) {
+                AudioEngine.click();
+                currentQuizIndex++;
+                renderQuiz();
+            }
+        }
+    </script>
+
+    <script>
+        window.onload = function() {
+            renderGame1();
+            renderGame2();
+            renderQuiz();
+        };
+    </script>
+
+</body></html>
